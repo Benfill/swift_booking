@@ -5,28 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- this is the link to tailwind framework -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet"/>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
 
     <!-- this is the path to the css file -->
-    <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="../style/style.css" />
     <title>SwiftBooking</title>
   </head>
   <body>
-
     <!-- this is the header section -->
-    <header></header>
+    <header class="js-header">
+    </header>
     <!-- the end of header section -->
 
     <!-- this is the main section -->
     <main>
+      <div class="filter">
+        <label for="date">Date:</label>
+        <input type="date" id="date" />
+
+        <label for="reservation-type">Reservation Type:</label>
+        <select id="reservation-type">
+          <option value="restaurant">Restaurant</option>
+          <option value="event">Event</option>
+        </select>
+
+        <label for="city">City:</label>
+        <select id="city">
+          <option value="nyc">New York</option>
+          <option value="casa">Casablanca</option>
+          <option value="tangier">Tangier</option>
+        </select>
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" min="1" value="1" />
+
+        <button id="filter-button">Apply Filter</button>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 js-card">
+        <!-- Restaurant, or event results will be displayed here -->
+      </div>
+      <div class="flex items-center justify-center mt-8">
+        <ul class="flex space-x-2">
+          <li>
+            <a href="" class="px-3 py-2 bg-blue-500 text-white rounded-md">1</a>
+          </li>
+          <li>
+            <a href="" class="px-3 py-2 bg-gray-200 text-gray-600 rounded-md">2</a>
+          </li>
+          <li>
+            <a href="" class="px-3 py-2 bg-gray-200 text-gray-600 rounded-md">3</a>
+          </li>
+          <!-- Add more page links as needed -->
+        </ul>
+      </div>
     </main>
     <!-- the end of main section -->
 
     <!-- this is the footer section -->
-    <footer></footer>
+    <footer class="bg-gray-800 text-white py-4 js-footer"></footer>
     <!-- the end of footer section -->
 
-    <script src="src/srcript/main.js"></script>
-
+    <script src="../srcript/main.js"></script>
+    <script src="../srcript/nav-footer.js"></script>
+    <script type="module" src="../srcript/filter.js"></script>
   </body>
 </html>
