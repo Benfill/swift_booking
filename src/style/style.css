@@ -15,3 +15,28 @@ main {
 
 filter {
 }
+
+.bg-footer{
+    background-color: #AAD9F9;
+    width: 100%;
+}
+
+.font{
+    font-family: Lavishly Yours;
+}
+.text-black{
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        height: 2000px;
+    }  
+}
+
+@media screen and (max-width: 640px) {
+    main {
+        height: 4000px;
+       
+    }  
+}
