@@ -81,7 +81,7 @@ const footerElm = document.getElementsByClassName("js-footer");
 const headerElm = document.getElementsByClassName("js-header");
 
 // loop adds header and footer in every page
-for (let i = 0; i < headerElm.length; i++) {
+for (let i = 0; i < footerElm.length; i++) {
   headerElm[i].innerHTML = headerHtml;
   footerElm[i].innerHTML = footerHtml;
 }
