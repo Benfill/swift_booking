@@ -10,6 +10,7 @@ import event_atlanta from "./json files/event-atlanta.json" assert { type: "json
 const nyc = { restaurant: restaurant_nyc, event: event_nyc };
 const la = { restaurant: restaurant_la, event: event_la };
 const atlanta = { restaurant: restaurant_atlanta, event: event_atlanta };
+let cityChecker;
 
 // selecting cards parent by his class name
 const card = document.querySelector(".js-card");
@@ -17,23 +18,23 @@ const card = document.querySelector(".js-card");
 // showing cards
 for (let i = 0; i < 2; i++) {
   showingList(i, "restaurant", nyc);
-  showingList(i, "event", nyc);
-  showingList(i, "restaurant", la);
   showingList(i, "event", la);
-  showingList(i, "restaurant", atlanta);
+  showingList(i, "restaurant", la);
   showingList(i, "event", atlanta);
+  showingList(i, "event", nyc);
+  showingList(i, "restaurant", atlanta);
 }
 
 // selecting search btn by his id
 const filterBtn = document.getElementById("filter-button");
+const date = document.getElementById("date");
+const reservationType = document.getElementById("reservation-type");
+const city = document.getElementById("city");
+const guests = document.getElementById("guests");
 
 // getting search values
 filterBtn.addEventListener("click", function () {
-  const date = document.getElementById("date").value;
-  const reservationType = document.getElementById("reservation-type").value;
-  const city = document.getElementById("city").value;
-  const guests = document.getElementById("guests").value;
-  filterList(reservationType, city);
+  filterList(reservationType.value, city.value);
 });
 
 // filter function that shows list of what the user searches
@@ -43,14 +44,17 @@ function filterList(reservationType, city) {
   switch (reservationType) {
     case "restaurant":
       if (city == "nyc") {
+        cityChecker = nyc;
         for (let i = 0; i < 12; i++) {
           showingList(i, "restaurant", nyc);
         }
       } else if (city == "tangier") {
+        cityChecker = la;
         for (let i = 0; i < 12; i++) {
           showingList(i, "restaurant", la);
         }
       } else if (city == "casa") {
+        cityChecker = atlanta;
         for (let i = 0; i < 12; i++) {
           showingList(i, "restaurant", atlanta);
         }
@@ -93,3 +97,26 @@ function showingList(index, service, city) {
   </div>`;
   }
 }
+
+// function pagination(page) {
+//   if (page === 1) {
+//     for (let i = 0; i < 12; i++) showingList(i, reservationType.value, cityChecker);
+//   } else if (page === 2) {
+//     for (let i = 12; i < 20; i++) showingList(i, reservationType.value, cityChecker);
+//   }
+// }
+
+// const page_1 = document.querySelector(".pagination-1");
+// const page_2 = document.querySelector(".pagination-2");
+// const page_3 = document.querySelector(".pagination-3");
+
+// page_1.addEventListener("click", () => {
+//   pagination(1);
+// });
+// page_2.addEventListener("click", () => {
+//   pagination(2);
+// });
+// page_3.addEventListener("click", () => {
+//   pagination(3);
+// });
+
