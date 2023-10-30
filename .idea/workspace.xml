@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8159ec59-e7c3-44fd-b81a-00b7b67ca3f8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/reservation.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/reservation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/services.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/testemonials.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/testemonials.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/srcript/filter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/srcript/json files/event-nyc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/srcript/json files/restau-nyc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/srcript/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/srcript/nav-footer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/nav-footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/nav-footer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,15 +21,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/youcode/Documents/Artcode_startup",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/youcode/Documents/Artcode_startup&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
