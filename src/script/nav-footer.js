@@ -3,12 +3,12 @@ const footerHtml = `<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8"
 <div class="md:flex md:justify-between">
   <div class="mb-6 md:mb-0">
       <a href="https://flowbite.com/" class="flex items-center">
-          <span class="self-center text-2xl font whitespace-nowrap dark:text-white text-black text-3xl font-bold">SwiftBooking</span>
+          <span class="self-center text-2xl logo whitespace-nowrap dark:text-white text-black text-3xl font-bold">SwiftBooking</span>
       </a>
   </div>
-  <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+  <div class=" font grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
       <div>
-          <h2 class="mb-3 text-sm font-semibold text-gray-900 uppercase dark:text-white">Services</h2>
+          <h2 class="  mb-3 text-sm font-semibold text-gray-900 uppercase dark:text-white">Services</h2>
           <ul class="text-gray-500 text-black">
               <li class="mb-2">
                   <a href="https://flowbite.com/" class="hover:underline">Restaurant Reservation</a>
@@ -58,14 +58,14 @@ const headerHtml = `<div class="navbar fixed top-0 left-0 right-0 z-10 p-4">
             </div>
         </button>
       </div>
-      <ul id="menuList" class="hidden lg:flex space-x-6 content-around text-white font font-bold">
-        <li><a href="#" class="hover:text-gray-600">Service</a></li>
+      <ul id="menuList" class="hidden lg:flex space-x-6 content-around text-white font-bold">
+        <li><a href="#" class=" hover:text-gray-600">Service</a></li>
         <li><a href="#" class="hover:text-gray-600">Testimonials</a></li>
         <li><a href="#" class="hover:text-gray-600">Reservation</a></li>
         <li><a href="#" class="hover:text-gray-600">Contact</a></li>
       </ul>
-      <div class="hidden lg:flex">
-        <button class="bg-blue-700 text-white py-2 px-8 rounded-lg font font-bold">Sign in</button>
+      <div class=" hidden lg:flex">
+        <button class="  font bg-blue-700 text-white py-2 px-8 rounded-lg font-bold">Sign in</button>
       </div>
     </nav>
   </div>
@@ -81,7 +81,7 @@ const footerElm = document.getElementsByClassName("js-footer");
 const headerElm = document.getElementsByClassName("js-header");
 
 // loop adds header and footer in every page
-for (let i = 0; i < headerElm.length; i++) {
+for (let i = 0; i < footerElm.length; i++) {
   headerElm[i].innerHTML = headerHtml;
   footerElm[i].innerHTML = footerHtml;
 }
