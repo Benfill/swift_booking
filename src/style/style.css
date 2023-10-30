@@ -13,6 +13,32 @@ main {
     align-items: center;
 }
 
+/******************   Navbar  Start    ******************************/
+/*   Logo font   */
+.logo{
+    font-family: 'Lavishly Yours', cursive;
+}
+/* Navbar elements font  */
+.font{
+    font-family: 'Inter', sans-serif;
+}
+.navbar{
+    background-color: rgba(200, 200, 200, 0.4);
+}
+/******************   Navbar  End    ******************************/
+
+/******************   Testemonials Page  Start   ******************************/
+.bg-image{
+    background-image: url("../img/bg2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    filter: opacity(90%) ;
+;
+}
+/******************   Testemonials Page  End   ******************************/
+
 filter {
 }
 

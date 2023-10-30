@@ -47,19 +47,31 @@ const footerHtml = `<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8"
 </div>`;
 
 // variable takes the header html code
-const headerHtml = `<div class="fixed top-0 left-0 right-0 z-10 bg-transparent p-4">
-<div class="container mx-auto">
-  <nav class="flex items-center justify-between">
-    <a href="#" class="text-black text-2xl font-semibold">Your Logo</a>
-    <ul class="flex space-x-4">
-      <li><a href="#" class="text-black hover:text-gray-600">Home</a></li>
-      <li><a href="#" class="text-black hover:text-gray-600">About</a></li>
-      <li><a href="#" class="text-black hover:text-gray-600">Services</a></li>
-      <li><a href="#" class="text-black hover:text-gray-600">Contact</a></li>
-    </ul>
-  </nav>
+const headerHtml = `<div class="navbar fixed top-0 left-0 right-0 z-10 p-4">
+  <div class="container mx-auto">
+    <nav class="flex flex-wrap items-center justify-between">
+      <a href="../index.html" class="logo text-white text-3xl font-bold">SwiftBooking</a>
+      <div class="block lg:hidden">
+        <button id="menuButton" class="text-white hover:text-gray-600">
+             <div class="container bg-blue-700 px-1 rounded-lg" style="">
+                <ion-icon name="menu" ></ion-icon>
+            </div>
+        </button>
+      </div>
+      <ul id="menuList" class="hidden lg:flex space-x-6 content-around text-white font font-bold">
+        <li><a href="#" class="hover:text-gray-600">Service</a></li>
+        <li><a href="#" class="hover:text-gray-600">Testimonials</a></li>
+        <li><a href="#" class="hover:text-gray-600">Reservation</a></li>
+        <li><a href="#" class="hover:text-gray-600">Contact</a></li>
+      </ul>
+      <div class="hidden lg:flex">
+        <button class="bg-blue-700 text-white py-2 px-8 rounded-lg font font-bold">Sign in</button>
+      </div>
+    </nav>
+  </div>
 </div>
-</div>
+
+
 `;
 
 // variable takes the footer element
