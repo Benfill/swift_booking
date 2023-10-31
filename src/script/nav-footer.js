@@ -2,7 +2,7 @@
 const footerHtml = `<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
 <div class="md:flex md:justify-between">
   <div class="mb-6 md:mb-0">
-      <a href="https://flowbite.com/" class="flex items-center">
+      <a href="../../index.html" class="flex items-center">
           <span class="self-center text-2xl logo whitespace-nowrap dark:text-white text-black text-3xl font-bold">SwiftBooking</span>
       </a>
   </div>
@@ -11,10 +11,10 @@ const footerHtml = `<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8"
           <h2 class="  mb-3 text-sm font-semibold text-gray-900 uppercase dark:text-white">Services</h2>
           <ul class="text-gray-500 text-black">
               <li class="mb-2">
-                  <a href="https://flowbite.com/" class="hover:underline">Restaurant Reservation</a>
+                  <a href="./services.html" class="hover:underline">Restaurant Reservation</a>
               </li>
               <li>
-                  <a href="https://tailwindcss.com/" class="hover:underline">Event Venue Reservation</a>
+                  <a href="#" class="hover:underline">Event Venue Reservation</a>
               </li>
           </ul>
       </div>
@@ -22,7 +22,7 @@ const footerHtml = `<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8"
           <h2 class="mb-3 text-sm font-semibold text-gray-900 uppercase dark:text-white">Contact</h2>
           <ul class="text-gray-500 text-black ">
               <li class="mb-4">
-                  <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Help and Support</a>
+                  <a href="./contact.html" class="hover:underline ">Help and Support</a>
               </li>
           </ul>
       </div>
@@ -50,29 +50,27 @@ const footerHtml = `<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8"
 const headerHtml = `<div class="navbar fixed top-0 left-0 right-0 z-10 p-4">
   <div class="container mx-auto">
     <nav class="flex flex-wrap items-center justify-between">
-      <a href="../index.html" class="logo text-white text-3xl font-bold">SwiftBooking</a>
-      <div class="block lg:hidden">
-        <button id="menuButton" class="text-white hover:text-gray-600">
-             <div class="container bg-blue-700 px-1 rounded-lg" style="">
-                <ion-icon name="menu" ></ion-icon>
-            </div>
-        </button>
-      </div>
-      <ul id="menuList" class="hidden lg:flex space-x-6 content-around text-white font-bold">
-        <li><a href="#" class=" hover:text-gray-600">Service</a></li>
-        <li><a href="#" class="hover:text-gray-600">Testimonials</a></li>
-        <li><a href="#" class="hover:text-gray-600">Reservation</a></li>
-        <li><a href="#" class="hover:text-gray-600">Contact</a></li>
+      <a href="../../index.html" class="logo text-black text-3xl font-bold nav-text">SwiftBooking</a>
+      <div class="lg:hidden">
+			<button class="navbar-burger flex items-center text-blue-600 p-3">
+				<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+					<title>Mobile menu</title>
+					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+				</svg>
+			</button>
+		</div>
+      <ul id="menuList" class="hidden lg:flex space-x-6 content-around text-black font-bold nav-text">
+        <li><a href="./services.html" class=" hover:text-gray-600">Service</a></li>
+        <li><a href="./testemonials.html" class="hover:text-gray-600">Testimonials</a></li>
+        <li><a href="./reservation.html" class="hover:text-gray-600">Reservation</a></li>
+        <li><a href="./contact.html" class="hover:text-gray-600">Contact</a></li>
       </ul>
       <div class=" hidden lg:flex">
-        <button class="  font bg-blue-700 text-white py-2 px-8 rounded-lg font-bold">Sign in</button>
+        <a href="./login.html"><button class="  font bg-blue-700 text-white py-2 px-8 rounded-lg font-bold">Sign in</button></a>
       </div>
     </nav>
   </div>
-</div>
-
-
-`;
+</div>`;
 
 // variable takes the footer element
 const footerElm = document.getElementsByClassName("js-footer");
