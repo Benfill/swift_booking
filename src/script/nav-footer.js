@@ -50,7 +50,7 @@ const footerHtml = `<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8"
 const headerHtml = `<div class="navbar fixed top-0 left-0 right-0 z-10 p-4">
   <div class="container mx-auto">
     <nav class="flex flex-wrap items-center justify-between">
-      <a href="../../index.html" class="logo text-white text-3xl font-bold">SwiftBooking</a>
+      <a href="../../index.html" class="logo text-black text-3xl font-bold">SwiftBooking</a>
       <div class="block lg:hidden">
         <button id="menuButton" class="text-white hover:text-gray-600">
              <div class="container bg-blue-700 px-1 rounded-lg" style="">
@@ -58,7 +58,7 @@ const headerHtml = `<div class="navbar fixed top-0 left-0 right-0 z-10 p-4">
             </div>
         </button>
       </div>
-      <ul id="menuList" class="hidden lg:flex space-x-6 content-around text-white font-bold">
+      <ul id="menuList" class="hidden lg:flex space-x-6 content-around text-black font-bold">
         <li><a href="./services.html" class=" hover:text-gray-600">Service</a></li>
         <li><a href="./testemonials.html" class="hover:text-gray-600">Testimonials</a></li>
         <li><a href="./reservation.html" class="hover:text-gray-600">Reservation</a></li>
