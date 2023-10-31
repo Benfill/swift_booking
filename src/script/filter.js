@@ -106,17 +106,38 @@ function showingList(index, service, city) {
 //   }
 // }
 
-// const page_1 = document.querySelector(".pagination-1");
-// const page_2 = document.querySelector(".pagination-2");
-// const page_3 = document.querySelector(".pagination-3");
+const page_1 = document.querySelector(".pagination-1");
+const page_2 = document.querySelector(".pagination-2");
+const page_3 = document.querySelector(".pagination-3");
 
-// page_1.addEventListener("click", () => {
-//   pagination(1);
-// });
-// page_2.addEventListener("click", () => {
-//   pagination(2);
-// });
-// page_3.addEventListener("click", () => {
-//   pagination(3);
-// });
+page_1.addEventListener("click", () => {
+  page_2.classList.remove("bg-blue-500");
+  page_2.classList.remove("text-white");
+  page_3.classList.remove("bg-blue-500");
+  page_3.classList.remove("text-white");
+  page_1.classList.add("text-white");
+  page_1.classList.add("bg-blue-500");
+  page_1.classList.remove("text-gray-600");
+});
+page_2.addEventListener("click", () => {
+  page_1.classList.remove("bg-blue-500");
+  page_1.classList.remove("text-white");
+  page_1.classList.add("text-gray-600");
+  page_3.classList.remove("bg-blue-500");
+  page_3.classList.remove("text-white");
+  page_2.classList.remove("text-gray-600");
+  page_2.classList.add("text-white");
+  page_2.classList.add("bg-blue-500");
+});
+page_3.addEventListener("click", () => {
+  page_2.classList.remove("bg-blue-500");
+  page_2.classList.remove("text-white");
+  page_2.classList.add("text-gray-600");
+  page_1.classList.remove("bg-blue-500");
+  page_1.classList.remove("text-white");
+  page_1.classList.add("text-gray-600");
+  page_3.classList.add("text-white");
+  page_3.classList.add("bg-blue-500");
+  page_3.classList.remove("text-gray-600");
+});
 

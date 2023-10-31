@@ -3,16 +3,17 @@ const homeHeaderHtml = `<div class="navbar fixed top-0 left-0 right-0 z-10 p-4">
 <div class="container mx-auto">
   <nav class="flex flex-wrap items-center justify-between">
     <a href="../../index.html" class="logo text-white text-3xl font-bold">SwiftBooking</a>
-    <div class="block lg:hidden">
-      <button id="menuButton" class="text-white hover:text-gray-600">
-           <div class="container bg-blue-700 px-1 rounded-lg" style="">
-              <ion-icon name="menu" ></ion-icon>
-          </div>
-      </button>
-    </div>
+    <div class="lg:hidden">
+			<button class="navbar-burger flex items-center text-white-600 p-3">
+				<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+					<title>Mobile menu</title>
+					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+				</svg>
+			</button>
+	</div>
     <ul id="menuList" class="hidden lg:flex space-x-6 content-around text-white font-bold">
       <li><a href="src/pages/services.html" class=" hover:text-gray-600">Service</a></li>
-      <li><a href="src/pages/testimonials.html" class="hover:text-gray-600">Testimonials</a></li>
+      <li><a href="src/pages/testemonials.html" class="hover:text-gray-600">Testimonials</a></li>
       <li><a href="src/pages/reservation.html" class="hover:text-gray-600">Reservation</a></li>
       <li><a href="src/pages/contact.html" class="hover:text-gray-600">Contact</a></li>
     </ul>
