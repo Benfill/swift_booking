@@ -27,6 +27,16 @@ main {
 }
 /******************   Navbar  End    ******************************/
 
+/******************   Service page  End    ******************************/
+
+.pagination {
+    cursor: pointer;
+}
+
+
+
+/******************   Service page  End    ******************************/
+
 /******************   Testemonials Page  Start   ******************************/
 .bg-image{
     background-image: url("../img/bg2.png");

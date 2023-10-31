@@ -26,7 +26,7 @@
 
     <!-- this is the main section -->
     <main class="bar-search">
-      <div class="bg-gray-100 p-4 flex space-x-4">
+      <div class="bg-white shadow-lg p-4 flex space-x-4">
         <div class="flex space-x-4">
           <div class="relative">
             <label for="city" class="font-medium text-gray-700">
@@ -74,6 +74,24 @@
           <ion-icon name="search-outline" class="mr-2"></ion-icon>Search
         </button>
         
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 js-card">
+        <!-- Restaurant, or event results will be displayed here -->
+      </div>
+      <div class="flex items-center justify-center mt-8">
+        <ul class="flex space-x-2">
+          <li>
+            <a class="pagination-1 px-3 py-2 bg-gray-200 bg-blue-500 text-white rounded-md pagination">1</a>
+          </li>
+          <li>
+            <a  class="pagination-2 px-3 py-2 bg-gray-200 text-gray-600 rounded-md pagination">2</a>
+          </li>
+          <li>
+            <a  class="pagination-3 px-3 py-2 bg-gray-200 text-gray-600 rounded-md pagination">3</a>
+          </li>
+          <!-- Add more page links as needed -->
+        </ul>
       </div>
       
     </main>
