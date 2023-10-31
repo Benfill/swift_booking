@@ -63,7 +63,6 @@ main {
         flex-direction: column;
         justify-content:flex-start;
         align-items: center;
-        height: 100px;
 
     }
     .grid-display{
@@ -96,7 +95,7 @@ filter {
 
 @media screen and (max-width: 640px) {
     main {
-        height: 4000px;
+        /* height: 4000px; */
        
     }  
 }
