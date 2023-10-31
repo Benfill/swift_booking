@@ -1,43 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- this is the link to tailwind framework -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-    <!-- This for the fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lavishly+Yours&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+  <!-- this is the link to tailwind framework -->
+  <link
+          href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+          rel="stylesheet"
+  />
+  <!-- This for the fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lavishly+Yours&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
 
-    <!-- this is the path to the css file -->
-    <link rel="stylesheet" href="../style/style.css"/>
-    <link rel="stylesheet" href="../style/text-white.css">
-    <title>SwiftBooking</title>
-  </head>
-  <body>
-    <!-- this is the header section -->
-    <header class="js-header">
-    </header>
-    <!-- the end of header section -->
+  <!-- this is the path to the css file -->
+  <link rel="stylesheet" href="../style/style.css"/>
+  <title>SwiftBooking</title>
+</head>
+<body>
+<!-- this is the header section -->
+<header class="js-header">
+</header>
+<!-- the end of header section -->
 
-    <!-- this is the main section -->
-    <main></main>
-    <!-- the end of main section -->
+<!-- background image and description Start -->
+<section class="bg-image container min-h-screen  flex flex-col justify-center items-center">
+  <!-- description -->
+  <div class=" media text-white font text-4xl font-bold	">
+    SwiftBooking makes a big difference<br> with our customers and their events<br>
+    <div class=" media1 font  text-base	" style="color:#AAD9F9"> Hear why event professionals rely on our venue & event management system  to <br>run  theirevents ... and their businesses</div>
+  </div>
 
-    <!-- this is the footer section -->
-    <!-- this is the footer section -->
-    <footer class="bg-footer dark:bg-gray-900 js-footer"></footer>
-    <!-- the end of footer section -->
+</section>
+<!-- background image and description End -->
 
-    <script src="../script/main.js"></script>
-    <script src="../script/nav-footer.js"></script>
-  </body>
+<!-- this is the main section -->
+<main class="container ">
+  <!-- reviews desc and stars-->
+  <div class="md:container md:mx-auto my-20 flex flex-col justify-center items-center	">
+    <p class="font media  text-4xl font-bold"> We asked our customers "What changed for the <br>better when you started using <span style="color:#082BCB">SwiftBooking</span> ?"<br> Here’s what a some of them had to say...</p><br>
+    <div class="max-w-fit	text-2xl text-yellow-300" >
+      <ion-icon  name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+      <ion-icon name="star"></ion-icon>
+    </div>
+    <p class="font media1 text-base text-center"> 4.89 out of 5 stars<br>
+
+      Try our tools free and see why our customers give us top ratings!</p>
+  </div>
+
+  <!--reviews --->
+  <div class="container max-w-fit  mx-auto my-4 ">
+    <div class=" grid-display grid grid-cols-2 gap-10 mx-10	 ">
+
+      <!-- Review 1 ( duplicate this block for more reviews)-->
+      <div class="  border border-blue-400 p-4  ">
+
+        <div class="text-base text-yellow-300">
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+        </div>
+        <p class="font text-xs">5.0 out of 5 stars</p>
+        <p class="font text-xs">I’ve been a wedding planner in Houston for over a decade, and I’ve used SwiftBooking the entire time. They help me manage most aspects of the business from RSVP Management to Timelines and Invoicing to floor plans it’s all handled inside their easy to use software. I’ve tried other CRMs in the events industry and I end up staying with SwiftBooking because I appreciate how they continue to add new features to stay current, and their support team and video tutorials are always there to help with any issues as they come up. SwiftBooking definitely helps me be a better event planner for my clients!
+          <span style="color:#082BCB"> <br>Shaun Gray, Shaun Gray Events</span></p>
+      </div>
+
+      <!-- Review 2  -->
+      <div class="border border-blue-400 p-4 ">
+        <div class="flex flex-col h-fit">
+          <div class="max-w-fit text-base text-yellow-300">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+          <p class="font text-xs">4.0 out of 5 stars</p>
+          <p class="font text-xs">Keeps me well-organized and from double booking <br>I’ve been a wedding planner in Houston for over a decade, and I’ve used SwiftBooking the entire time. They help me manage most aspects of the business from RSVP Management to Timelines
+            I’ve been a wedding planner in Houston for over a decade, and I’ve used SwiftBooking the entire time. They help me manage most aspects of the business from RSVP Management to Timelines<br>
+            I’ve been a wedding planner in Houston for over a decade, and I’ve used SwiftBooking the entire time. They help me manage most aspects of the business from RSVP Management to Timelines<br>
+            <span style="color:#082BCB">Loretta Ortiz, Oaks at Heavenly Event Venue</span></p>
+        </div>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="border border-blue-400 p-4">
+        <div class="flex flex-col h-fit">
+          <div class="text-base text-yellow-300">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+          </div>
+          <p class="font text-xs">5.0 out of 5 stars</p>
+          <p class="font text-xs">
+          <p class="font text-xs">Keeps me well-organized and from double booking <br>
+            <span style="color:#082BCB">Loretta Ortiz, Oaks at Heavenly Event Venue</span>
+          </p>
+        </div>
+      </div>
+
+      <!-- Review 4-->
+      <div class="  border border-blue-400 p-4  ">
+
+        <div class="text-base text-yellow-300">
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+        </div>
+        <p class="font text-xs">5.0 out of 5 stars</p>
+        <p class="font text-xs">I’ve been a wedding planner in Houston for over a decade, and I’ve used SwiftBooking the entire time.
+          <span style="color:#082BCB"> <br>Shaun Gray, Shaun Gray Events</span></p>
+      </div>
+
+      <!-- Reviews -->
+    </div>
+  </div>
+
+
+
+  </div>
+
+
+</main>
+<!-- the end of main section -->
+
+<!-- this is the footer section -->
+<!-- this is the footer section -->
+<footer class="bg-footer  js-footer"></footer>
+<!-- the end of footer section -->
+
+<script src="../script/main.js"></script>
+<script src="../script/nav-footer.js"></script>
+<!--icons ionic-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
 </html>
