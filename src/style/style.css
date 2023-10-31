@@ -36,16 +36,43 @@ main {
     height: 100vh;
 
 }
+@media (max-width: 430px)
+{
+    .media{
+        font-size: medium;
+        line-height: normal;
+        margin:0 10px;
+
+    }
+    .media1{
+        font-size: small;
+        line-height: normal;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+        height: 100px;
+
+    }
+    .grid-display{
+        grid-template-columns:1fr;
+
+    }
+}
 /******************   Testemonials Page  End   ******************************/
 
 filter {
 }
 
+
+/******************   Footer  Start   ******************************/
+
 .bg-footer{
     background-color: #AAD9F9;
     width: 100%;
 }
-
 
 .text-black{
     color: black;
@@ -63,3 +90,4 @@ filter {
        
     }  
 }
+/******************   Footer  End   ******************************/
