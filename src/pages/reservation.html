@@ -17,7 +17,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lavishly+Yours&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
     <!-- this is the path to the css file -->
-    <link rel="stylesheet" href="../style/style.css"/>
+    <link rel="stylesheet" href="../style/reservation.css"/>
+
     <title>SwiftBooking</title>
   </head>
   <body>
@@ -27,7 +28,80 @@
     <!-- the end of header section -->
 
     <!-- this is the main section -->
-    <main></main>
+    <main>
+      <div class="md:container md:mx-auto mt-20  flex flex-col ">
+        <p class="font  shadow media  text-black text-2xl font-bold  mx-20" > Complete your reservation <br>
+          <span style="color:#082BCB" class="font media1  text-base font-bold "> We're holding your selection as you complete your reservation.</span>
+        </p>
+      </div>
+      <!-- Form -->
+      <div class="container max-w-fit md:mx-auto my-4 ">
+        <div class="  grid-display grid grid-cols-3 gap-10 mx-20 ">
+
+          <div class="  border border-blue-400 p-4 col-span-2  ">
+            <p class="font text-lg	font-bold mb-4 " > Your profile <br>
+              <span class="font text-xs font-light" >Please complete your profile </span></p>
+
+            <!-- Form inputs -->
+            <form class="mt-10">
+              <div class="flex justify-around "><!-- first and last name -->
+                <div class="mb-4">
+                  <input type="text" id="first-name" name="first-name" class="w-full border border-black py-3 px-20 font text-xs"  placeholder="First name" required>
+                </div>
+                <div class="mb-4">
+                  <input type="text" id="last-name" name="last-name" class="w-full border border-black py-3 px-20 font text-xs"  placeholder="Last name" required>
+                </div>
+              </div>
+              <div class="flex justify-around"><!-- email and phone number -->
+                <div class="mb-4">
+                  <input type="email" id="email" name="email" class="w-full border border-black py-3 px-20 font text-xs"  placeholder="email" required>
+                </div>
+                <div class="mb-4">
+                  <input type="tel" id="phone-number" name="phone-number" class="w-full border border-black py-3 px-20  font text-xs"  placeholder="Phone number" required>
+                </div>
+              </div>
+
+            </form>
+          </div>
+
+          <!-- Form End-->
+          <div class="border border-blue-400 p-4  ">
+            <div class="flex flex-col h-fit ">
+              <p class="font text-lg font-bold mb-5 "> Reservation <br>Confirmation</p>
+
+              <div class="container space-y-2 ">
+                <!-- calendar -->
+                  <div class="flex">
+                    <ion-icon name="calendar-outline"></ion-icon>
+                    <p class="font text-xs font-light ml-2"> Tuesday, November 7, 2023</p>
+                  </div>
+                  <!-- location -->
+                  <div class="flex">
+                    <ion-icon name="location"></ion-icon>
+                    <p class="font text-xs font-light ml-2"> Restaurant, Rabat</p>
+                  </div>
+                  <!-- guests -->
+                  <div class="flex">
+                    <ion-icon name="person-outline"></ion-icon>
+                    <p class="font text-xs font-light ml-2"> 2 guests </p>
+                  </div>
+                  <!-- deposit -->
+                  <div class="flex">
+                    <ion-icon name="cash-outline"></ion-icon>
+                    <p class="font text-xs font-light ml-2"> 70$ deposit per person </p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="mt-4 flex justify-evenly  ">
+              <button type="submit" class="bg-blue-700 text-white py-2 px-9 rounded font font-bold mr-10">Confirm</button>
+              <button type="submit" class="bg-blue-700 text-white py-2 px-9 rounded font font-bold">Cancel </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
     <!-- the end of main section -->
 
     <!-- this is the footer section -->
@@ -37,5 +111,8 @@
 
     <script src="../script/main.js"></script>
     <script src="../script/nav-footer.js"></script>
+    <!--icons ionic-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>
