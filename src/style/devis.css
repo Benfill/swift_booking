@@ -1,0 +1,52 @@
+/******************   Navbar  Start    ******************************/
+/*   Logo font   */
+.logo{
+    font-family: 'Lavishly Yours', cursive;
+}
+/* Navbar elements font  */
+.font{
+    font-family: 'Inter', sans-serif;
+}
+.navbar{
+    background-color: rgba(200, 200, 200, 0.4);
+}
+/******************   Navbar  End    ******************************/
+
+main{
+    height: 55rem;
+    width: 100%;
+}
+.devis{
+    padding: 0 4rem;
+}
+@media (max-width: 768px) {
+    main {
+        height: 1000px !important;
+    }
+}
+
+/******************   Footer  Start   ******************************/
+
+.bg-footer{
+    background-color: #AAD9F9;
+    width: 100%;
+}
+
+.text-black{
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        height: 2000px;
+    }  
+}
+
+@media screen and (max-width: 640px) {
+    main {
+        /* height: 4000px; */
+       
+    }  
+}
+/******************   Footer  End   ******************************/
+
