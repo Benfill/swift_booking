@@ -10,21 +10,15 @@ import event_atlanta from "./json files/event-atlanta.json" assert { type: "json
 const nyc = { restaurant: restaurant_nyc, event: event_nyc };
 const la = { restaurant: restaurant_la, event: event_la };
 const atlanta = { restaurant: restaurant_atlanta, event: event_atlanta };
-let cityChecker;
-
-console.log(restaurant_la);
+let cityChecker = nyc;
+let cityChecker2;
 
 // selecting cards parent by his class name
 const card = document.querySelector(".js-card");
 
 // showing cards
-for (let i = 0; i < 2; i++) {
+for (let i = 0; i < 12; i++) {
   showingList(i, "restaurant", nyc);
-  showingList(i, "event", la);
-  showingList(i, "restaurant", la);
-  showingList(i, "event", atlanta);
-  showingList(i, "event", nyc);
-  showingList(i, "restaurant", atlanta);
 }
 
 // selecting search btn by his id
@@ -33,7 +27,8 @@ const date = document.getElementById("date");
 const reservationType = document.getElementById("reservation-type");
 const city = document.getElementById("city");
 const guests = document.getElementById("guests");
-cityChecker = nyc;
+
+
 
 // getting search values
 filterBtn.addEventListener("click", function () {
@@ -49,16 +44,19 @@ function filterList(reservationType, city) {
     case "restaurant":
       if (city == "nyc") {
         cityChecker = nyc;
+        cityChecker2 = "nyc";
         for (let i = 0; i < 12; i++) {
           showingList(i, "restaurant", nyc);
         }
       } else if (city == "tangier") {
         cityChecker = la;
+        cityChecker2 = "la";
         for (let i = 0; i < 12; i++) {
           showingList(i, "restaurant", la);
         }
       } else if (city == "casa") {
         cityChecker = atlanta;
+        cityChecker2 = "atlanta";
         for (let i = 0; i < 12; i++) {
           showingList(i, "restaurant", atlanta);
         }
@@ -86,14 +84,14 @@ function filterList(reservationType, city) {
 // showingList is a function shows the service list dpending on params
 function showingList(index, service, city) {
   if (service == "restaurant") {
-    card.innerHTML += `<div class="max-w-sm mx-auto bg-white rounded overflow-hidden shadow-lg" onclick="takeMeToServicePage('restaurant', ${index});">
-    <img src="${city.restaurant.businesses[index].image_url}" alt="Placeholder Image" class="w-full h-48 object-cover">
+    card.innerHTML += `<div class="produit max-w-sm mx-auto bg-white rounded overflow-hidden shadow-lg">
+    <img class="images" src="${city.restaurant.businesses[index].image_url}" alt="Placeholder Image" class="w-full h-48 object-cover">
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">${city.restaurant.businesses[index].name}</div>
       <p class="text-gray-700">${city.restaurant.businesses[index].location.address1} ${city.restaurant.businesses[index].location.city}</p>
   </div>`;
   } else {
-    card.innerHTML += `<div class="max-w-sm mx-auto bg-white rounded overflow-hidden shadow-lg" onclick="takeMeToServicePage('event', ${index});">
+    card.innerHTML += `<div class="max-w-sm mx-auto bg-white rounded overflow-hidden shadow-lg">
     <img src="${city.event.businesses[index].image_url}" alt="Placeholder Image" class="w-full h-48 object-cover">
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">${city.event.businesses[index].name}</div>
@@ -108,7 +106,6 @@ function pagination(page) {
   card.innerHTML = "";
   if (page === 1) {
     for (let i = 0; i < 12; i++) {
-      console.log(cityChecker);
       showingList(i, reservationType.value, cityChecker);
       pageChecker = 1;
       changePageColor(pageChecker);
@@ -150,3 +147,10 @@ function changePageColor(page) {
 }
 
 
+const produis = document.querySelectorAll('.produit');
+    const images = document.querySelectorAll('.images');
+    produis.forEach((element , index), function () {
+      element.addEventListner("click", function {
+        images[index]
+      })
+    })
