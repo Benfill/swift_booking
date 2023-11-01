@@ -18,6 +18,7 @@
 
     <!-- this is the path to the css file -->
     <link rel="stylesheet" href="src/style/style.css">
+    <link rel="stylesheet" href="./src/style/home.css">
     <title>SwiftBooking</title>
   </head>
   <body>
@@ -29,6 +30,61 @@
 
     <!-- this is the main section -->
     <main>
+      <div class="hero">
+        <div class="content">
+          <h1>BOOK AT A COUVERTS HOTSPOT</h1>
+          <p>2023'S TOP RATED SPOTS & RESTAURANTS, BASED ON OUR USERS REVIEWS</p>
+        </div>
+        <div class="bg-white shadow-lg p-4 flex space-x-4">
+          <div class="flex space-x-4">
+            <div class="relative">
+              <label for="city" class="font-medium text-gray-700">
+                <ion-icon name="location-outline" class="mr-2"></ion-icon>City
+              </label>
+              <select id="city" class="appearance-none bg-white hover:border-gray-500 px-4 py-2 pr-8 rounded leading-tight focus:outline-none focus:shadow-outline">
+                <option value="nyc">New York</option>
+                <option value="casa">Casablanca</option>
+                <option value="tangier">Tangier</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </div>
+            </div>
+            <div class="relative">
+              <label for="date" class="font-medium text-gray-700">
+                <ion-icon name="calendar" class="mr-2"></ion-icon>Date
+              </label>
+              <input type="date" id="date" class="appearance-none bg-white hover:border-gray-500 px-4 py-2 pr-8 rounded leading-tight focus:outline-none focus:shadow-outline">
+            </div>
+          </div>
+          <div class="flex space-x-4">
+            <div class="relative">
+              <label for="guests" class="font-medium text-gray-700">
+                <ion-icon name="person" class="mr-2"></ion-icon>Guest
+              </label>
+              <input type="number" id="guests" class="w-16 appearance-none bg-white hover:border-gray-500 px-2 py-2 pr-6 rounded leading-tight focus:outline-none focus:shadow-outline" min="1">
+            </div>
+            <div class="relative">
+              <label for="reservation-type" class="font-medium text-gray-700">Service</label>
+              <select id="reservation-type" class="appearance-none bg-white  hover:border-gray-500 px-4 py-2 pr-8 rounded leading-tight focus:outline-none focus:shadow-outline">
+                <option value="restaurant">Restaurant</option>
+                <option value="event">Event</option>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <button id="filter-button" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+            <ion-icon name="search-outline" class="mr-2"></ion-icon>Search
+          </button>
+          
+        </div>
+      </div>
     </main>
     <!-- the end of main section -->
 

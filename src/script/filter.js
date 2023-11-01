@@ -12,6 +12,8 @@ const la = { restaurant: restaurant_la, event: event_la };
 const atlanta = { restaurant: restaurant_atlanta, event: event_atlanta };
 let cityChecker;
 
+console.log(restaurant_la);
+
 // selecting cards parent by his class name
 const card = document.querySelector(".js-card");
 
@@ -31,10 +33,12 @@ const date = document.getElementById("date");
 const reservationType = document.getElementById("reservation-type");
 const city = document.getElementById("city");
 const guests = document.getElementById("guests");
+cityChecker = nyc;
 
 // getting search values
 filterBtn.addEventListener("click", function () {
   filterList(reservationType.value, city.value);
+  changePageColor(1);
 });
 
 // filter function that shows list of what the user searches
@@ -82,14 +86,14 @@ function filterList(reservationType, city) {
 // showingList is a function shows the service list dpending on params
 function showingList(index, service, city) {
   if (service == "restaurant") {
-    card.innerHTML += `<div class="max-w-sm mx-auto bg-white rounded overflow-hidden shadow-lg">
+    card.innerHTML += `<div class="max-w-sm mx-auto bg-white rounded overflow-hidden shadow-lg" onclick="takeMeToServicePage(${city}, "restaurant", ${index})">
     <img src="${city.restaurant.businesses[index].image_url}" alt="Placeholder Image" class="w-full h-48 object-cover">
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">${city.restaurant.businesses[index].name}</div>
       <p class="text-gray-700">${city.restaurant.businesses[index].location.address1} ${city.restaurant.businesses[index].location.city}</p>
   </div>`;
   } else {
-    card.innerHTML += `<div class="max-w-sm mx-auto bg-white rounded overflow-hidden shadow-lg">
+    card.innerHTML += `<div class="max-w-sm mx-auto bg-white rounded overflow-hidden shadow-lg" onclick="takeMeToServicePage(${city}, "event", ${index})">
     <img src="${city.event.businesses[index].image_url}" alt="Placeholder Image" class="w-full h-48 object-cover">
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">${city.event.businesses[index].name}</div>
@@ -98,36 +102,35 @@ function showingList(index, service, city) {
   }
 }
 
-// function pagination(page) {
-//   if (page === 1) {
-//     for (let i = 0; i < 12; i++) showingList(i, reservationType.value, cityChecker);
-//   } else if (page === 2) {
-//     for (let i = 12; i < 20; i++) showingList(i, reservationType.value, cityChecker);
-//   }
-// }
+let pageChecker = 1;
+
+function pagination(page) {
+  card.innerHTML = "";
+  if (page === 1) {
+    for (let i = 0; i < 12; i++) {
+      console.log(cityChecker);
+      showingList(i, reservationType.value, cityChecker);
+      pageChecker = 1;
+      changePageColor(pageChecker);
+    }
+  } else if (page === 2) {
+    for (let i = 12; i < 20; i++) {
+      showingList(i, reservationType.value, cityChecker);
+      pageChecker = 2;
+      changePageColor(pageChecker);
+    }
+  }
+}
 
 const page_1 = document.querySelector(".pagination-1");
 const page_2 = document.querySelector(".pagination-2");
 const page_3 = document.querySelector(".pagination-3");
 
 page_1.addEventListener("click", () => {
-  page_2.classList.remove("bg-blue-500");
-  page_2.classList.remove("text-white");
-  page_3.classList.remove("bg-blue-500");
-  page_3.classList.remove("text-white");
-  page_1.classList.add("text-white");
-  page_1.classList.add("bg-blue-500");
-  page_1.classList.remove("text-gray-600");
+  pagination(1);
 });
 page_2.addEventListener("click", () => {
-  page_1.classList.remove("bg-blue-500");
-  page_1.classList.remove("text-white");
-  page_1.classList.add("text-gray-600");
-  page_3.classList.remove("bg-blue-500");
-  page_3.classList.remove("text-white");
-  page_2.classList.remove("text-gray-600");
-  page_2.classList.add("text-white");
-  page_2.classList.add("bg-blue-500");
+  pagination(2);
 });
 page_3.addEventListener("click", () => {
   page_2.classList.remove("bg-blue-500");
@@ -141,3 +144,30 @@ page_3.addEventListener("click", () => {
   page_3.classList.remove("text-gray-600");
 });
 
+function changePageColor(page) {
+  if (page === 1) {
+    page_2.classList.remove("bg-blue-500");
+    page_2.classList.remove("text-white");
+    page_3.classList.remove("bg-blue-500");
+    page_3.classList.remove("text-white");
+    page_1.classList.add("text-white");
+    page_1.classList.add("bg-blue-500");
+    page_1.classList.remove("text-gray-600");
+  } else if (page === 2) {
+    page_1.classList.remove("bg-blue-500");
+    page_1.classList.remove("text-white");
+    page_1.classList.add("text-gray-600");
+    page_3.classList.remove("bg-blue-500");
+    page_3.classList.remove("text-white");
+    page_2.classList.remove("text-gray-600");
+    page_2.classList.add("text-white");
+    page_2.classList.add("bg-blue-500");
+  }
+}
+
+
+function takeMeToServicePage(city, service, index) {
+
+  window.location.href = "";
+
+}
