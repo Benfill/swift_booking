@@ -1,3 +1,15 @@
+## Table of Contents
+- [Artcode Startup - Restaurant and Event Booking Website](#artcode-startup---restaurant-and-event-booking-website)
+- [Links](#links)
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Design](#design)
+- [Contributing](#contributing)
+- [License](#license)
+
+
 # Artcode Startup - Restaurant and Event Booking Website
 
 Welcome to the Artcode Startup repository! This repository contains the code and design for our website that allows users to book restaurant or event places in New York City (NYC), Atlanta, and Los Angeles. Our website offers a user-friendly interface, robust search filters, and the ability to keep your reservation information even after page reloads.
