@@ -166,8 +166,8 @@ const images = document.querySelectorAll('.images');
 produits.forEach((element, index) => {
     element.addEventListener("click", () => {
       if (serviceChecker == "restaurant")
-        localStorage.setItem("data", JSON.stringify(cityChecker.restaurant.businesses[index]));
+        localStorage.setItem("business-data", JSON.stringify(cityChecker.restaurant.businesses[index]));
       else
-        localStorage.setItem("data", JSON.stringify(cityChecker.event.businesses[index]));
+        localStorage.setItem("business-data", JSON.stringify(cityChecker.event.businesses[index]));
     });
   });
