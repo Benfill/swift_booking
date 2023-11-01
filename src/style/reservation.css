@@ -71,11 +71,11 @@ body {
     box-shadow: none;
 }
 
-@media (max-width:430px){
+@media (max-width:425px){
     .grid-display{
         grid-template-columns:1fr;
-
     }
+
 }
 /******************   Reservation Page  End   ******************************/
 
@@ -97,14 +97,16 @@ filter {
 
 @media screen and (max-width: 768px) {
     main {
-        height: 2000px;
+        height: 500px;
     }
 }
 
 @media screen and (max-width: 640px) {
     main {
-        height: 4000px;
+        height: 800px;
 
     }
 }
+
+
 /******************   Footer  End   ******************************/
