@@ -136,8 +136,6 @@ function changePageColor(page) {
   if (page === 1) {
     page_2.classList.remove("bg-blue-500");
     page_2.classList.remove("text-white");
-    page_3.classList.remove("bg-blue-500");
-    page_3.classList.remove("text-white");
     page_1.classList.add("text-white");
     page_1.classList.add("bg-blue-500");
     page_1.classList.remove("text-gray-600");
@@ -145,8 +143,6 @@ function changePageColor(page) {
     page_1.classList.remove("bg-blue-500");
     page_1.classList.remove("text-white");
     page_1.classList.add("text-gray-600");
-    page_3.classList.remove("bg-blue-500");
-    page_3.classList.remove("text-white");
     page_2.classList.remove("text-gray-600");
     page_2.classList.add("text-white");
     page_2.classList.add("bg-blue-500");

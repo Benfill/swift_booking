@@ -2,7 +2,7 @@
 const footerHtml = `<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
 <div class="md:flex md:justify-between">
   <div class="mb-6 md:mb-0">
-      <a href="../../index.html" class="flex items-center">
+      <a href="../../index.html" class="flex items-center footer-logo">
           <span class="self-center text-2xl logo whitespace-nowrap dark:text-white text-black text-3xl font-bold">SwiftBooking</span>
       </a>
   </div>

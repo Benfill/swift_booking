@@ -10,8 +10,9 @@
 
 /******************   Navbar  Start    ******************************/
 /*   Logo font   */
-.logo{
+.logo, .footer-logo{
     font-family: 'Lavishly Yours', cursive;
+    overflow: visible !important;
 }
 /* Navbar elements font  */
 .font{
