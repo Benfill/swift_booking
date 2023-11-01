@@ -1,1 +1,601 @@
-{"businesses": [{"id": "SiZuBoRF-cvsd5EksElJ0A", "alias": "atlanta-beltline-lantern-parade-atlanta", "name": "Atlanta Beltline Lantern Parade", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/VWQP_6AFzpe1yc3D7j-1iw/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/atlanta-beltline-lantern-parade-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 12, "categories": [{"alias": "festivals", "title": "Festivals"}], "rating": 5.0, "coordinates": {"latitude": 33.7577057, "longitude": -84.3656082}, "transactions": [], "location": {"address1": "650 Irwin St", "address2": "", "address3": "", "city": "Atlanta", "zip_code": "30312", "country": "US", "state": "GA", "display_address": ["650 Irwin St", "Atlanta, GA 30312"]}, "phone": "", "display_phone": "", "distance": 6207.4848050971095}, {"id": "2XC3Wb0wqyaC0SiatYPUnA", "alias": "distillery-of-modern-art-chamblee", "name": "Distillery of Modern Art", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/N3XrTD7mjJ9kK-d1HMQBTg/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/distillery-of-modern-art-chamblee?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 19, "categories": [{"alias": "distilleries", "title": "Distilleries"}, {"alias": "venues", "title": "Venues & Event Spaces"}, {"alias": "cocktailbars", "title": "Cocktail Bars"}], "rating": 4.5, "coordinates": {"latitude": 33.8971, "longitude": -84.29613}, "transactions": [], "location": {"address1": "2197 Irvindale Way", "address2": null, "address3": "", "city": "Chamblee", "zip_code": "30341", "country": "US", "state": "GA", "display_address": ["2197 Irvindale Way", "Chamblee, GA 30341"]}, "phone": "+14044822663", "display_phone": "(404) 482-2663", "distance": 11753.662041121011}, {"id": "OeLMFUH_FUu9Vbs0DWuydQ", "alias": "le-maison-rouge-atlanta", "name": "Le Maison Rouge", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/f9XPZwVExoOaGsfIh1SjjA/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/le-maison-rouge-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 21, "categories": [{"alias": "venues", "title": "Venues & Event Spaces"}, {"alias": "eventplanning", "title": "Party & Event Planning"}], "rating": 4.5, "coordinates": {"latitude": 33.773764, "longitude": -84.364}, "transactions": [], "location": {"address1": "716 Ponce De Leon Pl NE", "address2": "", "address3": "Paris on Ponce", "city": "Atlanta", "zip_code": "30306", "country": "US", "state": "GA", "display_address": ["716 Ponce De Leon Pl NE", "Paris on Ponce", "Atlanta, GA 30306"]}, "phone": "+14042499965", "display_phone": "(404) 249-9965", "distance": 4475.831665256141}, {"id": "AV1l9kC9-3dOzkn93Z8jPA", "alias": "atlanta-international-night-market-norcross", "name": "Atlanta International Night Market", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/i3z6Jl3jtRk2EuFjSb5oRw/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/atlanta-international-night-market-norcross?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 16, "categories": [{"alias": "festivals", "title": "Festivals"}], "rating": 4.0, "coordinates": {"latitude": 33.92104, "longitude": -84.16871}, "transactions": [], "location": {"address1": "1568 Indian Trail Lilburn Rd NW", "address2": "", "address3": null, "city": "Norcross", "zip_code": "30093", "country": "US", "state": "GA", "display_address": ["1568 Indian Trail Lilburn Rd NW", "Norcross, GA 30093"]}, "phone": "+17703138008", "display_phone": "(770) 313-8008", "distance": 22394.833180612964}, {"id": "iQpLOgFZ4oWPgqQ_IrQrhA", "alias": "little-5-points-halloween-festival-and-parade-atlanta", "name": "Little 5 Points Halloween Festival & Parade", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/jdjQOz2Ifro2zY0rv4Jetw/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/little-5-points-halloween-festival-and-parade-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 16, "categories": [{"alias": "festivals", "title": "Festivals"}], "rating": 4.5, "coordinates": {"latitude": 33.76273563694407, "longitude": -84.35257358553957}, "transactions": [], "location": {"address1": "1083 Austin Ave NE", "address2": "", "address3": null, "city": "Atlanta", "zip_code": "30307", "country": "US", "state": "GA", "display_address": ["1083 Austin Ave NE", "Atlanta, GA 30307"]}, "phone": "+14042159454", "display_phone": "(404) 215-9454", "distance": 5940.478250688705}, {"id": "YlRIugD96hl_W5oObd53AA", "alias": "skylounge-atlanta", "name": "SkyLounge", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/9a0EjBFal0NVnrsiZPrJDw/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/skylounge-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 201, "categories": [{"alias": "lounges", "title": "Lounges"}, {"alias": "venues", "title": "Venues & Event Spaces"}], "rating": 3.5, "coordinates": {"latitude": 33.757, "longitude": -84.39301}, "transactions": [], "price": "$$", "location": {"address1": "110 Marietta St NW", "address2": "", "address3": "", "city": "Atlanta", "zip_code": "30303", "country": "US", "state": "GA", "display_address": ["110 Marietta St NW", "Atlanta, GA 30303"]}, "phone": "+14045212250", "display_phone": "(404) 521-2250", "distance": 6502.959322445498}, {"id": "EMPkDjFAHzDSiwrdpMi25g", "alias": "the-goat-farm-atlanta", "name": "The Goat Farm", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/1u8KEnIq73YeBKPZNFGCLA/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/the-goat-farm-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 58, "categories": [{"alias": "musicvenues", "title": "Music Venues"}, {"alias": "coffee", "title": "Coffee & Tea"}], "rating": 4.0, "coordinates": {"latitude": 33.78642, "longitude": -84.414617}, "transactions": [], "price": "$", "location": {"address1": "1200 Foster St", "address2": "", "address3": "", "city": "Atlanta", "zip_code": "30318", "country": "US", "state": "GA", "display_address": ["1200 Foster St", "Atlanta, GA 30318"]}, "phone": "", "display_phone": "", "distance": 4818.8753481093645}, {"id": "qS5aGRP2_XrkqozYu9ggcw", "alias": "decatur-alpaca-cottage-decatur", "name": "Decatur Alpaca Cottage", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/jxH8pHHhLDiF7P0TrAGAkA/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/decatur-alpaca-cottage-decatur?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 7, "categories": [{"alias": "bedbreakfast", "title": "Bed & Breakfast"}, {"alias": "vacation_rentals", "title": "Vacation Rentals"}, {"alias": "farms", "title": "Farms"}], "rating": 5.0, "coordinates": {"latitude": 33.80623, "longitude": -84.30586}, "transactions": [], "location": {"address1": null, "address2": null, "address3": "", "city": "Decatur", "zip_code": "30033", "country": "US", "state": "GA", "display_address": ["Decatur, GA 30033"]}, "phone": "", "display_phone": "", "distance": 8610.894452093049}, {"id": "IpSlfDHVFepkX9hdrmLmxg", "alias": "adult-big-wheel-club-atlanta-2", "name": "Adult Big Wheel Club", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Dc2djEOJ81wuO-_JaSbfzQ/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/adult-big-wheel-club-atlanta-2?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 27, "categories": [{"alias": "teambuilding", "title": "Team Building Activities"}], "rating": 5.0, "coordinates": {"latitude": 33.78594, "longitude": -84.38405}, "transactions": [], "location": {"address1": "", "address2": null, "address3": "", "city": "Atlanta", "zip_code": "30309", "country": "US", "state": "GA", "display_address": ["Atlanta, GA 30309"]}, "phone": "+17709409896", "display_phone": "(770) 940-9896", "distance": 1899.1324096621402}, {"id": "mDvrVInP2MOwU-FV4naqiA", "alias": "the-roof-at-ponce-city-market-atlanta", "name": "The Roof at Ponce City Market", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Tl2b6_cpK7fD0fYLqSYXGQ/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/the-roof-at-ponce-city-market-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 39, "categories": [{"alias": "venues", "title": "Venues & Event Spaces"}], "rating": 4.0, "coordinates": {"latitude": 33.772291, "longitude": -84.366042}, "transactions": [], "location": {"address1": "675 Ponce De Leon Ave NE", "address2": null, "address3": "", "city": "Atlanta", "zip_code": "30308", "country": "US", "state": "GA", "display_address": ["675 Ponce De Leon Ave NE", "Atlanta, GA 30308"]}, "phone": "+17709991530", "display_phone": "(770) 999-1530", "distance": 4603.990346289678}, {"id": "CbqppqiQbWBy1quXOvLScg", "alias": "atlanta-arts-festival-atlanta-2", "name": "Atlanta Arts Festival", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/OplvoV5dfJfe3Bz83-wiAw/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/atlanta-arts-festival-atlanta-2?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 5, "categories": [{"alias": "festivals", "title": "Festivals"}], "rating": 4.0, "coordinates": {"latitude": 33.7838629, "longitude": -84.378827}, "transactions": [], "location": {"address1": "1071 Piedmont Ave NE", "address2": null, "address3": "Piedmont Park", "city": "Atlanta", "zip_code": "30309", "country": "US", "state": "GA", "display_address": ["1071 Piedmont Ave NE", "Piedmont Park", "Atlanta, GA 30309"]}, "phone": "+17709419660", "display_phone": "(770) 941-9660", "distance": 3298.777098623949}, {"id": "iT0uH6jyJboVp7VQMaJxuQ", "alias": "anime-weekend-atlanta-atlanta", "name": "Anime Weekend Atlanta", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/3BhVH4fvz3B1ghNq9_rNDQ/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/anime-weekend-atlanta-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 20, "categories": [{"alias": "festivals", "title": "Festivals"}], "rating": 4.0, "coordinates": {"latitude": 33.8845348, "longitude": -84.4651334}, "transactions": [], "location": {"address1": "2450 Galleria Pkwy", "address2": "", "address3": "", "city": "Atlanta", "zip_code": "30339", "country": "US", "state": "GA", "display_address": ["2450 Galleria Pkwy", "Atlanta, GA 30339"]}, "phone": "", "display_phone": "", "distance": 11589.012999001712}, {"id": "UkKGDp3PALbyMmuWzp7ENw", "alias": "taste-of-marietta-marietta", "name": "Taste of Marietta", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/3bdmVdKkhbyZ5cUOjqqjZg/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/taste-of-marietta-marietta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 24, "categories": [{"alias": "festivals", "title": "Festivals"}], "rating": 4.0, "coordinates": {"latitude": 33.9527746, "longitude": -84.5504184}, "transactions": [], "location": {"address1": "4 Depot St NE", "address2": "", "address3": "Glover Park", "city": "Marietta", "zip_code": "30060", "country": "US", "state": "GA", "display_address": ["4 Depot St NE", "Glover Park", "Marietta, GA 30060"]}, "phone": "", "display_phone": "", "distance": 22520.277917020274}, {"id": "_dZgqmgI4OP-RadzNFoC8A", "alias": "tabernacle-atlanta", "name": "Tabernacle", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/5IpPojZjSIf-ybuPsJ_SlA/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/tabernacle-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 337, "categories": [{"alias": "musicvenues", "title": "Music Venues"}, {"alias": "venues", "title": "Venues & Event Spaces"}], "rating": 4.0, "coordinates": {"latitude": 33.7587, "longitude": -84.39144}, "transactions": [], "price": "$$", "location": {"address1": "152 Luckie St", "address2": null, "address3": "", "city": "Atlanta", "zip_code": "30303", "country": "US", "state": "GA", "display_address": ["152 Luckie St", "Atlanta, GA 30303"]}, "phone": "+14046599022", "display_phone": "(404) 659-9022", "distance": 6283.143025903322}, {"id": "MGFBFB1s544XQUFQUSt_Xw", "alias": "atlanta-food-and-wine-festival-atlanta", "name": "Atlanta Food and Wine Festival", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/EUMOJMM3kupbVpfT9wWkPw/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/atlanta-food-and-wine-festival-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 35, "categories": [{"alias": "festivals", "title": "Festivals"}, {"alias": "localflavor", "title": "Local Flavor"}], "rating": 3.5, "coordinates": {"latitude": 33.7834931565308, "longitude": -84.3840448734131}, "transactions": [], "location": {"address1": "680 Dallas St NW", "address2": "", "address3": "", "city": "Atlanta", "zip_code": "30308", "country": "US", "state": "GA", "display_address": ["680 Dallas St NW", "Atlanta, GA 30308"]}, "phone": "+14047455000", "display_phone": "(404) 745-5000", "distance": 3442.0643929891535}, {"id": "-H75W5an-TiyrnF5R7bC5Q", "alias": "mixhouseatl-atlanta-2", "name": "MixhouseATL", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/NNDdMwMhVBEDT9unTgZ9yQ/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/mixhouseatl-atlanta-2?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 1, "categories": [{"alias": "venues", "title": "Venues & Event Spaces"}, {"alias": "eventplanning", "title": "Party & Event Planning"}], "rating": 5.0, "coordinates": {"latitude": 33.766156408764026, "longitude": -84.51728593061577}, "transactions": [], "location": {"address1": "3800 Wendell Dr SW", "address2": "Ste 205", "address3": "", "city": "Atlanta", "zip_code": "30336", "country": "US", "state": "GA", "display_address": ["3800 Wendell Dr SW", "Ste 205", "Atlanta, GA 30336"]}, "phone": "+14048363937", "display_phone": "(404) 836-3937", "distance": 14269.81169860722}, {"id": "_c1n9drMhYeIlGxb7TpEtw", "alias": "flourish-atlanta", "name": "Flourish", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/YaZH_S49oWvFNdrrhLlP6g/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/flourish-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 5, "categories": [{"alias": "venues", "title": "Venues & Event Spaces"}, {"alias": "catering", "title": "Caterers"}, {"alias": "floraldesigners", "title": "Floral Designers"}], "rating": 5.0, "coordinates": {"latitude": 33.841096, "longitude": -84.371855}, "transactions": [], "location": {"address1": "3143 Maple Dr NE", "address2": "", "address3": null, "city": "Atlanta", "zip_code": "30305", "country": "US", "state": "GA", "display_address": ["3143 Maple Dr NE", "Atlanta, GA 30305"]}, "phone": "+14048698858", "display_phone": "(404) 869-8858", "distance": 3189.446372076027}, {"id": "FTypnebUDZxhCLtjqh7MFw", "alias": "hangoutz-social-club-for-teens-lawrenceville", "name": "HangOutz Social Club for Teens", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/5LiSLeuRPUzotRVdeuWcAw/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/hangoutz-social-club-for-teens-lawrenceville?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 1, "categories": [{"alias": "social_clubs", "title": "Social Clubs"}, {"alias": "venues", "title": "Venues & Event Spaces"}], "rating": 5.0, "coordinates": {"latitude": 33.964562, "longitude": -84.006792}, "transactions": [], "location": {"address1": "575 W Pike St", "address2": "Ste 19A", "address3": null, "city": "Lawrenceville", "zip_code": "30046", "country": "US", "state": "GA", "display_address": ["575 W Pike St", "Ste 19A", "Lawrenceville, GA 30046"]}, "phone": "+16784607565", "display_phone": "(678) 460-7565", "distance": 37807.83480295243}, {"id": "iUYZypm83sutT7Rha36d4w", "alias": "taste-of-the-highlands-atlanta", "name": "Taste of the Highlands", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/0mlGPsnOhYNsm5y3EUi3dg/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/taste-of-the-highlands-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 17, "categories": [{"alias": "festivals", "title": "Festivals"}], "rating": 4.5, "coordinates": {"latitude": 33.7815954215132, "longitude": -84.3599984153443}, "transactions": [], "location": {"address1": "John Howell Park", "address2": "", "address3": "", "city": "Atlanta", "zip_code": "30306", "country": "US", "state": "GA", "display_address": ["John Howell Park", "Atlanta, GA 30306"]}, "phone": "", "display_phone": "", "distance": 3734.456863187326}, {"id": "je0jy2xDv4xhygrdYi00eg", "alias": "dragon-con-atlanta", "name": "Dragon Con", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/PxKa1XsuBvaweV-wa7E9ww/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/dragon-con-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 111, "categories": [{"alias": "festivals", "title": "Festivals"}], "rating": 4.5, "coordinates": {"latitude": 33.76158, "longitude": -84.3851}, "transactions": [], "location": {"address1": "265 Peachtree Center Ave NE", "address2": "", "address3": "", "city": "Atlanta", "zip_code": "30303", "country": "US", "state": "GA", "display_address": ["265 Peachtree Center Ave NE", "Atlanta, GA 30303"]}, "phone": "+14046690773", "display_phone": "(404) 669-0773", "distance": 5846.735037182635}], "total": 3300, "region": {"center": {"longitude": -84.37362670898438, "latitude": 33.81321311652279}}}
+{
+  "businesses": [
+    {
+      "id": "SiZuBoRF-cvsd5EksElJ0A",
+      "alias": "atlanta-beltline-lantern-parade-atlanta",
+      "name": "Atlanta Beltline Lantern Parade",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/VWQP_6AFzpe1yc3D7j-1iw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/atlanta-beltline-lantern-parade-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 12,
+      "categories": [{ "alias": "festivals", "title": "Festivals" }],
+      "rating": 5.0,
+      "coordinates": { "latitude": 33.7577057, "longitude": -84.3656082 },
+      "transactions": [],
+      "location": {
+        "address1": "650 Irwin St",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30312",
+        "country": "US",
+        "state": "GA",
+        "display_address": ["650 Irwin St", "Atlanta, GA 30312"]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 6207.4848050971095
+    },
+    {
+      "id": "2XC3Wb0wqyaC0SiatYPUnA",
+      "alias": "distillery-of-modern-art-chamblee",
+      "name": "Distillery of Modern Art",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/N3XrTD7mjJ9kK-d1HMQBTg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/distillery-of-modern-art-chamblee?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 19,
+      "categories": [
+        { "alias": "distilleries", "title": "Distilleries" },
+        { "alias": "venues", "title": "Venues & Event Spaces" },
+        { "alias": "cocktailbars", "title": "Cocktail Bars" }
+      ],
+      "rating": 4.5,
+      "coordinates": { "latitude": 33.8971, "longitude": -84.29613 },
+      "transactions": [],
+      "location": {
+        "address1": "2197 Irvindale Way",
+        "address2": null,
+        "address3": "",
+        "city": "Chamblee",
+        "zip_code": "30341",
+        "country": "US",
+        "state": "GA",
+        "display_address": ["2197 Irvindale Way", "Chamblee, GA 30341"]
+      },
+      "phone": "+14044822663",
+      "display_phone": "(404) 482-2663",
+      "distance": 11753.662041121011
+    },
+    {
+      "id": "OeLMFUH_FUu9Vbs0DWuydQ",
+      "alias": "le-maison-rouge-atlanta",
+      "name": "Le Maison Rouge",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/f9XPZwVExoOaGsfIh1SjjA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/le-maison-rouge-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 21,
+      "categories": [
+        { "alias": "venues", "title": "Venues & Event Spaces" },
+        { "alias": "eventplanning", "title": "Party & Event Planning" }
+      ],
+      "rating": 4.5,
+      "coordinates": { "latitude": 33.773764, "longitude": -84.364 },
+      "transactions": [],
+      "location": {
+        "address1": "716 Ponce De Leon Pl NE",
+        "address2": "",
+        "address3": "Paris on Ponce",
+        "city": "Atlanta",
+        "zip_code": "30306",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "716 Ponce De Leon Pl NE",
+          "Paris on Ponce",
+          "Atlanta, GA 30306"
+        ]
+      },
+      "phone": "+14042499965",
+      "display_phone": "(404) 249-9965",
+      "distance": 4475.831665256141
+    },
+    {
+      "id": "AV1l9kC9-3dOzkn93Z8jPA",
+      "alias": "atlanta-international-night-market-norcross",
+      "name": "Atlanta International Night Market",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/i3z6Jl3jtRk2EuFjSb5oRw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/atlanta-international-night-market-norcross?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 16,
+      "categories": [{ "alias": "festivals", "title": "Festivals" }],
+      "rating": 4.0,
+      "coordinates": { "latitude": 33.92104, "longitude": -84.16871 },
+      "transactions": [],
+      "location": {
+        "address1": "1568 Indian Trail Lilburn Rd NW",
+        "address2": "",
+        "address3": null,
+        "city": "Norcross",
+        "zip_code": "30093",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "1568 Indian Trail Lilburn Rd NW",
+          "Norcross, GA 30093"
+        ]
+      },
+      "phone": "+17703138008",
+      "display_phone": "(770) 313-8008",
+      "distance": 22394.833180612964
+    },
+    {
+      "id": "iQpLOgFZ4oWPgqQ_IrQrhA",
+      "alias": "little-5-points-halloween-festival-and-parade-atlanta",
+      "name": "Little 5 Points Halloween Festival & Parade",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/jdjQOz2Ifro2zY0rv4Jetw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/little-5-points-halloween-festival-and-parade-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 16,
+      "categories": [{ "alias": "festivals", "title": "Festivals" }],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.76273563694407,
+        "longitude": -84.35257358553957
+      },
+      "transactions": [],
+      "location": {
+        "address1": "1083 Austin Ave NE",
+        "address2": "",
+        "address3": null,
+        "city": "Atlanta",
+        "zip_code": "30307",
+        "country": "US",
+        "state": "GA",
+        "display_address": ["1083 Austin Ave NE", "Atlanta, GA 30307"]
+      },
+      "phone": "+14042159454",
+      "display_phone": "(404) 215-9454",
+      "distance": 5940.478250688705
+    },
+    {
+      "id": "YlRIugD96hl_W5oObd53AA",
+      "alias": "skylounge-atlanta",
+      "name": "SkyLounge",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/9a0EjBFal0NVnrsiZPrJDw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/skylounge-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 201,
+      "categories": [
+        { "alias": "lounges", "title": "Lounges" },
+        { "alias": "venues", "title": "Venues & Event Spaces" }
+      ],
+      "rating": 3.5,
+      "coordinates": { "latitude": 33.757, "longitude": -84.39301 },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "110 Marietta St NW",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": ["110 Marietta St NW", "Atlanta, GA 30303"]
+      },
+      "phone": "+14045212250",
+      "display_phone": "(404) 521-2250",
+      "distance": 6502.959322445498
+    },
+    {
+      "id": "EMPkDjFAHzDSiwrdpMi25g",
+      "alias": "the-goat-farm-atlanta",
+      "name": "The Goat Farm",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/1u8KEnIq73YeBKPZNFGCLA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-goat-farm-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 58,
+      "categories": [
+        { "alias": "musicvenues", "title": "Music Venues" },
+        { "alias": "coffee", "title": "Coffee & Tea" }
+      ],
+      "rating": 4.0,
+      "coordinates": { "latitude": 33.78642, "longitude": -84.414617 },
+      "transactions": [],
+      "price": "$",
+      "location": {
+        "address1": "1200 Foster St",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30318",
+        "country": "US",
+        "state": "GA",
+        "display_address": ["1200 Foster St", "Atlanta, GA 30318"]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 4818.8753481093645
+    },
+    {
+      "id": "qS5aGRP2_XrkqozYu9ggcw",
+      "alias": "decatur-alpaca-cottage-decatur",
+      "name": "Decatur Alpaca Cottage",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/jxH8pHHhLDiF7P0TrAGAkA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/decatur-alpaca-cottage-decatur?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 7,
+      "categories": [
+        { "alias": "bedbreakfast", "title": "Bed & Breakfast" },
+        { "alias": "vacation_rentals", "title": "Vacation Rentals" },
+        { "alias": "farms", "title": "Farms" }
+      ],
+      "rating": 5.0,
+      "coordinates": { "latitude": 33.80623, "longitude": -84.30586 },
+      "transactions": [],
+      "location": {
+        "address1": null,
+        "address2": null,
+        "address3": "",
+        "city": "Decatur",
+        "zip_code": "30033",
+        "country": "US",
+        "state": "GA",
+        "display_address": ["Decatur, GA 30033"]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 8610.894452093049
+    },
+    {
+      "id": "IpSlfDHVFepkX9hdrmLmxg",
+      "alias": "adult-big-wheel-club-atlanta-2",
+      "name": "Adult Big Wheel Club",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Dc2djEOJ81wuO-_JaSbfzQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/adult-big-wheel-club-atlanta-2?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 27,
+      "categories": [
+        { "alias": "teambuilding", "title": "Team Building Activities" }
+      ],
+      "rating": 5.0,
+      "coordinates": { "latitude": 33.78594, "longitude": -84.38405 },
+      "transactions": [],
+      "location": {
+        "address1": "",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30309",
+        "country": "US",
+        "state": "GA",
+        "display_address": ["Atlanta, GA 30309"]
+      },
+      "phone": "+17709409896",
+      "display_phone": "(770) 940-9896",
+      "distance": 1899.1324096621402
+    },
+    {
+      "id": "mDvrVInP2MOwU-FV4naqiA",
+      "alias": "the-roof-at-ponce-city-market-atlanta",
+      "name": "The Roof at Ponce City Market",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Tl2b6_cpK7fD0fYLqSYXGQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-roof-at-ponce-city-market-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 39,
+      "categories": [{ "alias": "venues", "title": "Venues & Event Spaces" }],
+      "rating": 4.0,
+      "coordinates": { "latitude": 33.772291, "longitude": -84.366042 },
+      "transactions": [],
+      "location": {
+        "address1": "675 Ponce De Leon Ave NE",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30308",
+        "country": "US",
+        "state": "GA",
+        "display_address": ["675 Ponce De Leon Ave NE", "Atlanta, GA 30308"]
+      },
+      "phone": "+17709991530",
+      "display_phone": "(770) 999-1530",
+      "distance": 4603.990346289678
+    },
+    {
+      "id": "CbqppqiQbWBy1quXOvLScg",
+      "alias": "atlanta-arts-festival-atlanta-2",
+      "name": "Atlanta Arts Festival",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/OplvoV5dfJfe3Bz83-wiAw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/atlanta-arts-festival-atlanta-2?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 5,
+      "categories": [{ "alias": "festivals", "title": "Festivals" }],
+      "rating": 4.0,
+      "coordinates": { "latitude": 33.7838629, "longitude": -84.378827 },
+      "transactions": [],
+      "location": {
+        "address1": "1071 Piedmont Ave NE",
+        "address2": null,
+        "address3": "Piedmont Park",
+        "city": "Atlanta",
+        "zip_code": "30309",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "1071 Piedmont Ave NE",
+          "Piedmont Park",
+          "Atlanta, GA 30309"
+        ]
+      },
+      "phone": "+17709419660",
+      "display_phone": "(770) 941-9660",
+      "distance": 3298.777098623949
+    },
+    {
+      "id": "iT0uH6jyJboVp7VQMaJxuQ",
+      "alias": "anime-weekend-atlanta-atlanta",
+      "name": "Anime Weekend Atlanta",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/3BhVH4fvz3B1ghNq9_rNDQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/anime-weekend-atlanta-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 20,
+      "categories": [{ "alias": "festivals", "title": "Festivals" }],
+      "rating": 4.0,
+      "coordinates": { "latitude": 33.8845348, "longitude": -84.4651334 },
+      "transactions": [],
+      "location": {
+        "address1": "2450 Galleria Pkwy",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30339",
+        "country": "US",
+        "state": "GA",
+        "display_address": ["2450 Galleria Pkwy", "Atlanta, GA 30339"]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 11589.012999001712
+    },
+    {
+      "id": "UkKGDp3PALbyMmuWzp7ENw",
+      "alias": "taste-of-marietta-marietta",
+      "name": "Taste of Marietta",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/3bdmVdKkhbyZ5cUOjqqjZg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/taste-of-marietta-marietta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 24,
+      "categories": [{ "alias": "festivals", "title": "Festivals" }],
+      "rating": 4.0,
+      "coordinates": { "latitude": 33.9527746, "longitude": -84.5504184 },
+      "transactions": [],
+      "location": {
+        "address1": "4 Depot St NE",
+        "address2": "",
+        "address3": "Glover Park",
+        "city": "Marietta",
+        "zip_code": "30060",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "4 Depot St NE",
+          "Glover Park",
+          "Marietta, GA 30060"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 22520.277917020274
+    },
+    {
+      "id": "_dZgqmgI4OP-RadzNFoC8A",
+      "alias": "tabernacle-atlanta",
+      "name": "Tabernacle",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/5IpPojZjSIf-ybuPsJ_SlA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/tabernacle-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 337,
+      "categories": [
+        { "alias": "musicvenues", "title": "Music Venues" },
+        { "alias": "venues", "title": "Venues & Event Spaces" }
+      ],
+      "rating": 4.0,
+      "coordinates": { "latitude": 33.7587, "longitude": -84.39144 },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "152 Luckie St",
+        "address2": null,
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": ["152 Luckie St", "Atlanta, GA 30303"]
+      },
+      "phone": "+14046599022",
+      "display_phone": "(404) 659-9022",
+      "distance": 6283.143025903322
+    },
+    {
+      "id": "MGFBFB1s544XQUFQUSt_Xw",
+      "alias": "atlanta-food-and-wine-festival-atlanta",
+      "name": "Atlanta Food and Wine Festival",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/EUMOJMM3kupbVpfT9wWkPw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/atlanta-food-and-wine-festival-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 35,
+      "categories": [
+        { "alias": "festivals", "title": "Festivals" },
+        { "alias": "localflavor", "title": "Local Flavor" }
+      ],
+      "rating": 3.5,
+      "coordinates": {
+        "latitude": 33.7834931565308,
+        "longitude": -84.3840448734131
+      },
+      "transactions": [],
+      "location": {
+        "address1": "680 Dallas St NW",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30308",
+        "country": "US",
+        "state": "GA",
+        "display_address": ["680 Dallas St NW", "Atlanta, GA 30308"]
+      },
+      "phone": "+14047455000",
+      "display_phone": "(404) 745-5000",
+      "distance": 3442.0643929891535
+    },
+    {
+      "id": "-H75W5an-TiyrnF5R7bC5Q",
+      "alias": "mixhouseatl-atlanta-2",
+      "name": "MixhouseATL",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/NNDdMwMhVBEDT9unTgZ9yQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/mixhouseatl-atlanta-2?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 1,
+      "categories": [
+        { "alias": "venues", "title": "Venues & Event Spaces" },
+        { "alias": "eventplanning", "title": "Party & Event Planning" }
+      ],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 33.766156408764026,
+        "longitude": -84.51728593061577
+      },
+      "transactions": [],
+      "location": {
+        "address1": "3800 Wendell Dr SW",
+        "address2": "Ste 205",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30336",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "3800 Wendell Dr SW",
+          "Ste 205",
+          "Atlanta, GA 30336"
+        ]
+      },
+      "phone": "+14048363937",
+      "display_phone": "(404) 836-3937",
+      "distance": 14269.81169860722
+    },
+    {
+      "id": "_c1n9drMhYeIlGxb7TpEtw",
+      "alias": "flourish-atlanta",
+      "name": "Flourish",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/YaZH_S49oWvFNdrrhLlP6g/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/flourish-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 5,
+      "categories": [
+        { "alias": "venues", "title": "Venues & Event Spaces" },
+        { "alias": "catering", "title": "Caterers" },
+        { "alias": "floraldesigners", "title": "Floral Designers" }
+      ],
+      "rating": 5.0,
+      "coordinates": { "latitude": 33.841096, "longitude": -84.371855 },
+      "transactions": [],
+      "location": {
+        "address1": "3143 Maple Dr NE",
+        "address2": "",
+        "address3": null,
+        "city": "Atlanta",
+        "zip_code": "30305",
+        "country": "US",
+        "state": "GA",
+        "display_address": ["3143 Maple Dr NE", "Atlanta, GA 30305"]
+      },
+      "phone": "+14048698858",
+      "display_phone": "(404) 869-8858",
+      "distance": 3189.446372076027
+    },
+    {
+      "id": "FTypnebUDZxhCLtjqh7MFw",
+      "alias": "hangoutz-social-club-for-teens-lawrenceville",
+      "name": "HangOutz Social Club for Teens",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/5LiSLeuRPUzotRVdeuWcAw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/hangoutz-social-club-for-teens-lawrenceville?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 1,
+      "categories": [
+        { "alias": "social_clubs", "title": "Social Clubs" },
+        { "alias": "venues", "title": "Venues & Event Spaces" }
+      ],
+      "rating": 5.0,
+      "coordinates": { "latitude": 33.964562, "longitude": -84.006792 },
+      "transactions": [],
+      "location": {
+        "address1": "575 W Pike St",
+        "address2": "Ste 19A",
+        "address3": null,
+        "city": "Lawrenceville",
+        "zip_code": "30046",
+        "country": "US",
+        "state": "GA",
+        "display_address": [
+          "575 W Pike St",
+          "Ste 19A",
+          "Lawrenceville, GA 30046"
+        ]
+      },
+      "phone": "+16784607565",
+      "display_phone": "(678) 460-7565",
+      "distance": 37807.83480295243
+    },
+    {
+      "id": "iUYZypm83sutT7Rha36d4w",
+      "alias": "taste-of-the-highlands-atlanta",
+      "name": "Taste of the Highlands",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/0mlGPsnOhYNsm5y3EUi3dg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/taste-of-the-highlands-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 17,
+      "categories": [{ "alias": "festivals", "title": "Festivals" }],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 33.7815954215132,
+        "longitude": -84.3599984153443
+      },
+      "transactions": [],
+      "location": {
+        "address1": "John Howell Park",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30306",
+        "country": "US",
+        "state": "GA",
+        "display_address": ["John Howell Park", "Atlanta, GA 30306"]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 3734.456863187326
+    },
+    {
+      "id": "je0jy2xDv4xhygrdYi00eg",
+      "alias": "dragon-con-atlanta",
+      "name": "Dragon Con",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/PxKa1XsuBvaweV-wa7E9ww/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/dragon-con-atlanta?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 111,
+      "categories": [{ "alias": "festivals", "title": "Festivals" }],
+      "rating": 4.5,
+      "coordinates": { "latitude": 33.76158, "longitude": -84.3851 },
+      "transactions": [],
+      "location": {
+        "address1": "265 Peachtree Center Ave NE",
+        "address2": "",
+        "address3": "",
+        "city": "Atlanta",
+        "zip_code": "30303",
+        "country": "US",
+        "state": "GA",
+        "display_address": ["265 Peachtree Center Ave NE", "Atlanta, GA 30303"]
+      },
+      "phone": "+14046690773",
+      "display_phone": "(404) 669-0773",
+      "distance": 5846.735037182635
+    }
+  ],
+  "total": 3300,
+  "region": {
+    "center": { "longitude": -84.37362670898438, "latitude": 33.81321311652279 }
+  }
+}

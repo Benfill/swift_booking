@@ -6,7 +6,7 @@ body {
 }
 
 main {
-    height: 1400px;
+    height: 2500px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -71,10 +71,6 @@ main {
     }
 }
 /******************   Testemonials Page  End   ******************************/
-
-filter {
-}
-
 
 /******************   Footer  Start   ******************************/
 

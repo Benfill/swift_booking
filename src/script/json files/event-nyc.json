@@ -1,1 +1,594 @@
-{"businesses": [{"id": "dMeA9-p5Nl6993B8B1JkOw", "alias": "tribeca-rooftop-new-york", "name": "Tribeca Rooftop", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/2PXMVc2bo9GqqOTYYcO2sA/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/tribeca-rooftop-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 85, "categories": [{"alias": "venues", "title": "Venues & Event Spaces"}], "rating": 4.5, "coordinates": {"latitude": 40.723389, "longitude": -74.008627}, "transactions": [], "location": {"address1": "2 Desbrosses St", "address2": "", "address3": "", "city": "New York", "zip_code": "10013", "country": "US", "state": "NY", "display_address": ["2 Desbrosses St", "New York, NY 10013"]}, "phone": "+12126252600", "display_phone": "(212) 625-2600", "distance": 2332.524515031023}, {"id": "FwJuUTOuFlBL-oW1B-J3fw", "alias": "unarthodox-new-york", "name": "Unarthodox", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/8GWpbaArwks3jYCbQxPpGw/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/unarthodox-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 75, "categories": [{"alias": "venues", "title": "Venues & Event Spaces"}, {"alias": "paintandsip", "title": "Paint & Sip"}, {"alias": "teambuilding", "title": "Team Building Activities"}], "rating": 5.0, "coordinates": {"latitude": 40.75123, "longitude": -74.00449}, "transactions": [], "location": {"address1": "547 W 27th St", "address2": "Ste 300", "address3": "", "city": "New York", "zip_code": "10001", "country": "US", "state": "NY", "display_address": ["547 W 27th St", "Ste 300", "New York, NY 10001"]}, "phone": "+16469644733", "display_phone": "(646) 964-4733", "distance": 5164.243760130909}, {"id": "XjKaW-3w7v0fGQJzIZg0cQ", "alias": "house-of-yes-brooklyn", "name": "House of Yes", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/vEDMTz-XvKuAU9iIqgClvg/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/house-of-yes-brooklyn?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 345, "categories": [{"alias": "theater", "title": "Performing Arts"}, {"alias": "danceclubs", "title": "Dance Clubs"}, {"alias": "venues", "title": "Venues & Event Spaces"}], "rating": 4.0, "coordinates": {"latitude": 40.70686, "longitude": -73.92353}, "transactions": [], "price": "$$", "location": {"address1": "2 Wyckoff Ave", "address2": "", "address3": "", "city": "Brooklyn", "zip_code": "11237", "country": "US", "state": "NY", "display_address": ["2 Wyckoff Ave", "Brooklyn, NY 11237"]}, "phone": "+16468384973", "display_phone": "(646) 838-4973", "distance": 5960.670059912273}, {"id": "2sNi5AUcQUjc_kjUz-n9oA", "alias": "taste-of-times-square-new-york", "name": "Taste of Times Square", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/_mCF9aYzmpVkDeNg--j1IQ/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/taste-of-times-square-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 20, "categories": [{"alias": "festivals", "title": "Festivals"}], "rating": 4.0, "coordinates": {"latitude": 40.758897, "longitude": -73.985131}, "transactions": [], "location": {"address1": "46TH Street Between Broadway, 9th Ave", "address2": "", "address3": "", "city": "New York", "zip_code": "10036", "country": "US", "state": "NY", "display_address": ["46TH Street Between Broadway, 9th Ave", "New York, NY 10036"]}, "phone": "+12127681560", "display_phone": "(212) 768-1560", "distance": 5993.527498687416}, {"id": "l3jRRrQZA_9jvo_fFu5edA", "alias": "pong-connect-nyc-new-york", "name": "Pong Connect NYC", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/5WMfjHOrXT9NEE1Nb_PY1g/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/pong-connect-nyc-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 2, "categories": [{"alias": "sports_clubs", "title": "Sports Clubs"}, {"alias": "partysupplies", "title": "Party Supplies"}], "rating": 5.0, "coordinates": {"latitude": 40.75192, "longitude": -73.98524}, "transactions": [], "location": {"address1": "60 W 38th St", "address2": "Fl 2", "address3": null, "city": "New York", "zip_code": "10018", "country": "US", "state": "NY", "display_address": ["60 W 38th St", "Fl 2", "New York, NY 10018"]}, "phone": "+16315307777", "display_phone": "(631) 530-7777", "distance": 5220.927676494304}, {"id": "lYcRqG3Sm4ntLUeJ302zIA", "alias": "brooklyn-winery-brooklyn", "name": "Brooklyn Winery", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/m9KUbisGtin4CZm61T7FgA/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/brooklyn-winery-brooklyn?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 292, "categories": [{"alias": "wineries", "title": "Wineries"}, {"alias": "venues", "title": "Venues & Event Spaces"}], "rating": 4.5, "coordinates": {"latitude": 40.72340953254032, "longitude": -73.95287351377351}, "transactions": ["pickup", "delivery"], "price": "$$", "location": {"address1": "61 Guernsey St", "address2": "", "address3": "", "city": "Brooklyn", "zip_code": "11222", "country": "US", "state": "NY", "display_address": ["61 Guernsey St", "Brooklyn, NY 11222"]}, "phone": "+13477631506", "display_phone": "(347) 763-1506", "distance": 4022.0693209223855}, {"id": "3D3JuLzqSAS15GsjiPNmCw", "alias": "movies-with-a-view-brooklyn", "name": "Movies With A View", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/YR-h0lirYBmdkPwKkSO4Gg/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/movies-with-a-view-brooklyn?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 11, "categories": [{"alias": "movietheaters", "title": "Cinema"}], "rating": 4.5, "coordinates": {"latitude": 40.70328, "longitude": -73.99051}, "transactions": [], "location": {"address1": "1 Main St", "address2": "", "address3": "Brooklyn Bridge Park", "city": "Brooklyn", "zip_code": "11201", "country": "US", "state": "NY", "display_address": ["1 Main St", "Brooklyn Bridge Park", "Brooklyn, NY 11201"]}, "phone": "", "display_phone": "", "distance": 401.5507580686641}, {"id": "IM7M6jcqnmJeunB3h60eRA", "alias": "the-foundry-long-island-city", "name": "The Foundry", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ilzMs45nT-mAo4PP4pZExg/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/the-foundry-long-island-city?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 50, "categories": [{"alias": "venues", "title": "Venues & Event Spaces"}, {"alias": "weddingchappels", "title": "Wedding Chapels"}, {"alias": "catering", "title": "Caterers"}], "rating": 4.5, "coordinates": {"latitude": 40.7534473515926, "longitude": -73.9489555943989}, "transactions": [], "location": {"address1": "42-38 9th St", "address2": null, "address3": "", "city": "Long Island City", "zip_code": "11101", "country": "US", "state": "NY", "display_address": ["42-38 9th St", "Long Island City, NY 11101"]}, "phone": "+17187867776", "display_phone": "(718) 786-7776", "distance": 6508.0230257578405}, {"id": "nAH69T_51LpF7EuBDSjIpQ", "alias": "rpm-underground-new-york-4", "name": "RPM Underground", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/fiSZTeqhoB7HRlnLKCNmmw/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/rpm-underground-new-york-4?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 107, "categories": [{"alias": "venues", "title": "Venues & Event Spaces"}, {"alias": "bars", "title": "Bars"}, {"alias": "karaoke", "title": "Karaoke"}], "rating": 4.0, "coordinates": {"latitude": 40.7642049, "longitude": -73.9834251}, "transactions": ["delivery"], "price": "$$", "location": {"address1": "246 W 54th St", "address2": null, "address3": "", "city": "New York", "zip_code": "10019", "country": "US", "state": "NY", "display_address": ["246 W 54th St", "New York, NY 10019"]}, "phone": "+16466093828", "display_phone": "(646) 609-3828", "distance": 6597.666567614042}, {"id": "fRkrivS-JBD_hCF0OtEtUA", "alias": "random-events-ny-new-york", "name": "Random Events NY", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/qmFJ5-aniD_Nf7A4hFQ5cw/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/random-events-ny-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 4, "categories": [{"alias": "social_clubs", "title": "Social Clubs"}], "rating": 4.0, "coordinates": {"latitude": 40.7607856, "longitude": -73.98349}, "transactions": [], "location": {"address1": "745 7th Ave", "address2": null, "address3": "", "city": "New York", "zip_code": "10019", "country": "US", "state": "NY", "display_address": ["745 7th Ave", "New York, NY 10019"]}, "phone": "+13474438368", "display_phone": "(347) 443-8368", "distance": 6220.5627714398515}, {"id": "BxC0ymKahaxEnNnhLLdtxg", "alias": "new-york-festival-of-light-nyfol-brooklyn", "name": "New York Festival Of Light NYFOL", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/K4EGd3IS9A29Jga96SxV5w/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/new-york-festival-of-light-nyfol-brooklyn?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 25, "categories": [{"alias": "festivals", "title": "Festivals"}], "rating": 2.0, "coordinates": {"latitude": 40.7026163439334, "longitude": -73.9925625557507}, "transactions": [], "location": {"address1": "", "address2": "", "address3": "", "city": "Brooklyn", "zip_code": "11201", "country": "US", "state": "NY", "display_address": ["Brooklyn, NY 11201"]}, "phone": "", "display_phone": "", "distance": 346.7040633115659}, {"id": "EDJeDURVMOYHiQBx6rtS8w", "alias": "the-magician-new-york-4", "name": "The Magician", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/r6PIEOMTBzttWKvei1wgFw/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/the-magician-new-york-4?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 132, "categories": [{"alias": "magicians", "title": "Magicians"}], "rating": 5.0, "coordinates": {"latitude": 40.73923461786853, "longitude": -73.98672189999999}, "transactions": [], "location": {"address1": "281 Park Ave S", "address2": "", "address3": "", "city": "New York", "zip_code": "10010", "country": "US", "state": "NY", "display_address": ["281 Park Ave S", "New York, NY 10010"]}, "phone": "+12127961500", "display_phone": "(212) 796-1500", "distance": 3811.036648241284}, {"id": "GxMLKEuQtIEGlRxLXnFfgQ", "alias": "manhattan-penthouse-new-york-4", "name": "Manhattan Penthouse", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/xZV7RnL6OZ90YmuWoCZqsw/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/manhattan-penthouse-new-york-4?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 86, "categories": [{"alias": "venues", "title": "Venues & Event Spaces"}, {"alias": "catering", "title": "Caterers"}], "rating": 4.5, "coordinates": {"latitude": 40.736032, "longitude": -73.994159}, "transactions": [], "location": {"address1": "80 5th Ave", "address2": "Fl 17", "address3": "", "city": "New York", "zip_code": "10011", "country": "US", "state": "NY", "display_address": ["80 5th Ave", "Fl 17", "New York, NY 10011"]}, "phone": "+12126278838", "display_phone": "(212) 627-8838", "distance": 3401.1493292036666}, {"id": "IMA18MENFeqdZc5YVh8njg", "alias": "brooklyn-botanic-garden-brooklyn-2", "name": "Brooklyn Botanic Garden", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/gVyOrt9ixKc7CJygr5tJYg/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/brooklyn-botanic-garden-brooklyn-2?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 1036, "categories": [{"alias": "gardens", "title": "Botanical Gardens"}], "rating": 4.5, "coordinates": {"latitude": 40.6692899, "longitude": -73.9633}, "transactions": [], "location": {"address1": "990 Washington Ave", "address2": "", "address3": "", "city": "Brooklyn", "zip_code": "11225", "country": "US", "state": "NY", "display_address": ["990 Washington Ave", "Brooklyn, NY 11225"]}, "phone": "+17186237200", "display_phone": "(718) 623-7200", "distance": 4817.002159260071}, {"id": "kGHAvZ5LxNvgDKYs2HGcSA", "alias": "aqua-azul-yacht-new-york", "name": "Aqua Azul Yacht", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/L-M6iB5RuNJVfX8tm0B_eg/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/aqua-azul-yacht-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 18, "categories": [{"alias": "boatcharters", "title": "Boat Charters"}, {"alias": "venues", "title": "Venues & Event Spaces"}], "rating": 5.0, "coordinates": {"latitude": 40.746657, "longitude": -74.010062}, "transactions": [], "location": {"address1": "Pier 60 Chelsea Piers", "address2": "", "address3": "", "city": "New York", "zip_code": "10011", "country": "US", "state": "NY", "display_address": ["Pier 60 Chelsea Piers", "New York, NY 10011"]}, "phone": "+19176861016", "display_phone": "(917) 686-1016", "distance": 4771.341614171171}, {"id": "O4UeWRZLKuS3GRC4ELJRog", "alias": "housing-works-bookstore-new-york", "name": "Housing Works Bookstore", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/tXQVd1i4-zLAM2pbqXgWsA/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/housing-works-bookstore-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 599, "categories": [{"alias": "bookstores", "title": "Bookstores"}, {"alias": "venues", "title": "Venues & Event Spaces"}, {"alias": "cafes", "title": "Cafes"}], "rating": 4.5, "coordinates": {"latitude": 40.72454, "longitude": -73.9965931}, "transactions": [], "price": "$", "location": {"address1": "126 Crosby St", "address2": "", "address3": "", "city": "New York", "zip_code": "10012", "country": "US", "state": "NY", "display_address": ["126 Crosby St", "New York, NY 10012"]}, "phone": "+12123343324", "display_phone": "(212) 334-3324", "distance": 2139.0072243623927}, {"id": "qZpTXNeodfkx0f67Ldng3g", "alias": "symphony-space-new-york", "name": "Symphony Space", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/gqXoqJTKeVjYtg6za4r-Kw/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/symphony-space-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 78, "categories": [{"alias": "theater", "title": "Performing Arts"}], "rating": 4.0, "coordinates": {"latitude": 40.793933, "longitude": -73.9729}, "transactions": [], "location": {"address1": "2537 Broadway", "address2": "", "address3": "", "city": "New York", "zip_code": "10025", "country": "US", "state": "NY", "display_address": ["2537 Broadway", "New York, NY 10025"]}, "phone": "+12128645400", "display_phone": "(212) 864-5400", "distance": 10010.337158973867}, {"id": "67Sqzf37ndcB7cTEuuQM5Q", "alias": "fat-friday-new-york", "name": "Fat Friday", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Q9q1J9w0LZxidOnMIi0U-A/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/fat-friday-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 1, "categories": [{"alias": "festivals", "title": "Festivals"}], "rating": 5.0, "coordinates": {"latitude": 40.72114, "longitude": -73.98567}, "transactions": [], "location": {"address1": "172 Norfolk St", "address2": "", "address3": "Angel Orensanz Foundation", "city": "New York", "zip_code": "10002", "country": "US", "state": "NY", "display_address": ["172 Norfolk St", "Angel Orensanz Foundation", "New York, NY 10002"]}, "phone": "", "display_phone": "", "distance": 1891.5241317214466}, {"id": "E2dth4-DyspHBddndGCsxw", "alias": "san-gennaro-feast-new-york-2", "name": "San Gennaro Feast", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/r-CHEP7LLNPQp1fQAK9cxw/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/san-gennaro-feast-new-york-2?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 271, "categories": [{"alias": "festivals", "title": "Festivals"}], "rating": 3.5, "coordinates": {"latitude": 40.7201360073554, "longitude": -73.9969754219055}, "transactions": [], "location": {"address1": "109 Mulberry St", "address2": "", "address3": "Little Italy", "city": "New York", "zip_code": "10013", "country": "US", "state": "NY", "display_address": ["109 Mulberry St", "Little Italy", "New York, NY 10013"]}, "phone": "", "display_phone": "", "distance": 1649.1471863837123}, {"id": "c7_p0PyNu-fsOGTFWJPZbw", "alias": "overlook-at-bryant-park-new-york", "name": "Overlook at Bryant Park", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/FxbVPBw3rmYveCmniCSpEA/o.jpg", "is_closed": false, "url": "https://www.yelp.com/biz/overlook-at-bryant-park-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w", "review_count": 2, "categories": [{"alias": "venues", "title": "Venues & Event Spaces"}], "rating": 5.0, "coordinates": {"latitude": 40.752, "longitude": -73.98618}, "transactions": [], "location": {"address1": "42ND St 6th Ave", "address2": "", "address3": "", "city": "New York", "zip_code": "10018", "country": "US", "state": "NY", "display_address": ["42ND St 6th Ave", "New York, NY 10018"]}, "phone": "+12127684242", "display_phone": "(212) 768-4242", "distance": 5558.548001503826}], "total": 10600, "region": {"center": {"longitude": -73.99429321289062, "latitude": 40.70544486444615}}}
+{
+  "businesses": [
+    {
+      "id": "dMeA9-p5Nl6993B8B1JkOw",
+      "alias": "tribeca-rooftop-new-york",
+      "name": "Tribeca Rooftop",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/2PXMVc2bo9GqqOTYYcO2sA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/tribeca-rooftop-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 85,
+      "categories": [{ "alias": "venues", "title": "Venues & Event Spaces" }],
+      "rating": 4.5,
+      "coordinates": { "latitude": 40.723389, "longitude": -74.008627 },
+      "transactions": [],
+      "location": {
+        "address1": "2 Desbrosses St",
+        "address2": "",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10013",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["2 Desbrosses St", "New York, NY 10013"]
+      },
+      "phone": "+12126252600",
+      "display_phone": "(212) 625-2600",
+      "distance": 2332.524515031023
+    },
+    {
+      "id": "FwJuUTOuFlBL-oW1B-J3fw",
+      "alias": "unarthodox-new-york",
+      "name": "Unarthodox",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/8GWpbaArwks3jYCbQxPpGw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/unarthodox-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 75,
+      "categories": [
+        { "alias": "venues", "title": "Venues & Event Spaces" },
+        { "alias": "paintandsip", "title": "Paint & Sip" },
+        { "alias": "teambuilding", "title": "Team Building Activities" }
+      ],
+      "rating": 5.0,
+      "coordinates": { "latitude": 40.75123, "longitude": -74.00449 },
+      "transactions": [],
+      "location": {
+        "address1": "547 W 27th St",
+        "address2": "Ste 300",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10001",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["547 W 27th St", "Ste 300", "New York, NY 10001"]
+      },
+      "phone": "+16469644733",
+      "display_phone": "(646) 964-4733",
+      "distance": 5164.243760130909
+    },
+    {
+      "id": "XjKaW-3w7v0fGQJzIZg0cQ",
+      "alias": "house-of-yes-brooklyn",
+      "name": "House of Yes",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/vEDMTz-XvKuAU9iIqgClvg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/house-of-yes-brooklyn?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 345,
+      "categories": [
+        { "alias": "theater", "title": "Performing Arts" },
+        { "alias": "danceclubs", "title": "Dance Clubs" },
+        { "alias": "venues", "title": "Venues & Event Spaces" }
+      ],
+      "rating": 4.0,
+      "coordinates": { "latitude": 40.70686, "longitude": -73.92353 },
+      "transactions": [],
+      "price": "$$",
+      "location": {
+        "address1": "2 Wyckoff Ave",
+        "address2": "",
+        "address3": "",
+        "city": "Brooklyn",
+        "zip_code": "11237",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["2 Wyckoff Ave", "Brooklyn, NY 11237"]
+      },
+      "phone": "+16468384973",
+      "display_phone": "(646) 838-4973",
+      "distance": 5960.670059912273
+    },
+    {
+      "id": "2sNi5AUcQUjc_kjUz-n9oA",
+      "alias": "taste-of-times-square-new-york",
+      "name": "Taste of Times Square",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/_mCF9aYzmpVkDeNg--j1IQ/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/taste-of-times-square-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 20,
+      "categories": [{ "alias": "festivals", "title": "Festivals" }],
+      "rating": 4.0,
+      "coordinates": { "latitude": 40.758897, "longitude": -73.985131 },
+      "transactions": [],
+      "location": {
+        "address1": "46TH Street Between Broadway, 9th Ave",
+        "address2": "",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10036",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "46TH Street Between Broadway, 9th Ave",
+          "New York, NY 10036"
+        ]
+      },
+      "phone": "+12127681560",
+      "display_phone": "(212) 768-1560",
+      "distance": 5993.527498687416
+    },
+    {
+      "id": "l3jRRrQZA_9jvo_fFu5edA",
+      "alias": "pong-connect-nyc-new-york",
+      "name": "Pong Connect NYC",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/5WMfjHOrXT9NEE1Nb_PY1g/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/pong-connect-nyc-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 2,
+      "categories": [
+        { "alias": "sports_clubs", "title": "Sports Clubs" },
+        { "alias": "partysupplies", "title": "Party Supplies" }
+      ],
+      "rating": 5.0,
+      "coordinates": { "latitude": 40.75192, "longitude": -73.98524 },
+      "transactions": [],
+      "location": {
+        "address1": "60 W 38th St",
+        "address2": "Fl 2",
+        "address3": null,
+        "city": "New York",
+        "zip_code": "10018",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["60 W 38th St", "Fl 2", "New York, NY 10018"]
+      },
+      "phone": "+16315307777",
+      "display_phone": "(631) 530-7777",
+      "distance": 5220.927676494304
+    },
+    {
+      "id": "lYcRqG3Sm4ntLUeJ302zIA",
+      "alias": "brooklyn-winery-brooklyn",
+      "name": "Brooklyn Winery",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/m9KUbisGtin4CZm61T7FgA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/brooklyn-winery-brooklyn?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 292,
+      "categories": [
+        { "alias": "wineries", "title": "Wineries" },
+        { "alias": "venues", "title": "Venues & Event Spaces" }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.72340953254032,
+        "longitude": -73.95287351377351
+      },
+      "transactions": ["pickup", "delivery"],
+      "price": "$$",
+      "location": {
+        "address1": "61 Guernsey St",
+        "address2": "",
+        "address3": "",
+        "city": "Brooklyn",
+        "zip_code": "11222",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["61 Guernsey St", "Brooklyn, NY 11222"]
+      },
+      "phone": "+13477631506",
+      "display_phone": "(347) 763-1506",
+      "distance": 4022.0693209223855
+    },
+    {
+      "id": "3D3JuLzqSAS15GsjiPNmCw",
+      "alias": "movies-with-a-view-brooklyn",
+      "name": "Movies With A View",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/YR-h0lirYBmdkPwKkSO4Gg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/movies-with-a-view-brooklyn?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 11,
+      "categories": [{ "alias": "movietheaters", "title": "Cinema" }],
+      "rating": 4.5,
+      "coordinates": { "latitude": 40.70328, "longitude": -73.99051 },
+      "transactions": [],
+      "location": {
+        "address1": "1 Main St",
+        "address2": "",
+        "address3": "Brooklyn Bridge Park",
+        "city": "Brooklyn",
+        "zip_code": "11201",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "1 Main St",
+          "Brooklyn Bridge Park",
+          "Brooklyn, NY 11201"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 401.5507580686641
+    },
+    {
+      "id": "IM7M6jcqnmJeunB3h60eRA",
+      "alias": "the-foundry-long-island-city",
+      "name": "The Foundry",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/ilzMs45nT-mAo4PP4pZExg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-foundry-long-island-city?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 50,
+      "categories": [
+        { "alias": "venues", "title": "Venues & Event Spaces" },
+        { "alias": "weddingchappels", "title": "Wedding Chapels" },
+        { "alias": "catering", "title": "Caterers" }
+      ],
+      "rating": 4.5,
+      "coordinates": {
+        "latitude": 40.7534473515926,
+        "longitude": -73.9489555943989
+      },
+      "transactions": [],
+      "location": {
+        "address1": "42-38 9th St",
+        "address2": null,
+        "address3": "",
+        "city": "Long Island City",
+        "zip_code": "11101",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["42-38 9th St", "Long Island City, NY 11101"]
+      },
+      "phone": "+17187867776",
+      "display_phone": "(718) 786-7776",
+      "distance": 6508.0230257578405
+    },
+    {
+      "id": "nAH69T_51LpF7EuBDSjIpQ",
+      "alias": "rpm-underground-new-york-4",
+      "name": "RPM Underground",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/fiSZTeqhoB7HRlnLKCNmmw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/rpm-underground-new-york-4?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 107,
+      "categories": [
+        { "alias": "venues", "title": "Venues & Event Spaces" },
+        { "alias": "bars", "title": "Bars" },
+        { "alias": "karaoke", "title": "Karaoke" }
+      ],
+      "rating": 4.0,
+      "coordinates": { "latitude": 40.7642049, "longitude": -73.9834251 },
+      "transactions": ["delivery"],
+      "price": "$$",
+      "location": {
+        "address1": "246 W 54th St",
+        "address2": null,
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10019",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["246 W 54th St", "New York, NY 10019"]
+      },
+      "phone": "+16466093828",
+      "display_phone": "(646) 609-3828",
+      "distance": 6597.666567614042
+    },
+    {
+      "id": "fRkrivS-JBD_hCF0OtEtUA",
+      "alias": "random-events-ny-new-york",
+      "name": "Random Events NY",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/qmFJ5-aniD_Nf7A4hFQ5cw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/random-events-ny-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 4,
+      "categories": [{ "alias": "social_clubs", "title": "Social Clubs" }],
+      "rating": 4.0,
+      "coordinates": { "latitude": 40.7607856, "longitude": -73.98349 },
+      "transactions": [],
+      "location": {
+        "address1": "745 7th Ave",
+        "address2": null,
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10019",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["745 7th Ave", "New York, NY 10019"]
+      },
+      "phone": "+13474438368",
+      "display_phone": "(347) 443-8368",
+      "distance": 6220.5627714398515
+    },
+    {
+      "id": "BxC0ymKahaxEnNnhLLdtxg",
+      "alias": "new-york-festival-of-light-nyfol-brooklyn",
+      "name": "New York Festival Of Light NYFOL",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/K4EGd3IS9A29Jga96SxV5w/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/new-york-festival-of-light-nyfol-brooklyn?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 25,
+      "categories": [{ "alias": "festivals", "title": "Festivals" }],
+      "rating": 2.0,
+      "coordinates": {
+        "latitude": 40.7026163439334,
+        "longitude": -73.9925625557507
+      },
+      "transactions": [],
+      "location": {
+        "address1": "",
+        "address2": "",
+        "address3": "",
+        "city": "Brooklyn",
+        "zip_code": "11201",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["Brooklyn, NY 11201"]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 346.7040633115659
+    },
+    {
+      "id": "EDJeDURVMOYHiQBx6rtS8w",
+      "alias": "the-magician-new-york-4",
+      "name": "The Magician",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/r6PIEOMTBzttWKvei1wgFw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/the-magician-new-york-4?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 132,
+      "categories": [{ "alias": "magicians", "title": "Magicians" }],
+      "rating": 5.0,
+      "coordinates": {
+        "latitude": 40.73923461786853,
+        "longitude": -73.98672189999999
+      },
+      "transactions": [],
+      "location": {
+        "address1": "281 Park Ave S",
+        "address2": "",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10010",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["281 Park Ave S", "New York, NY 10010"]
+      },
+      "phone": "+12127961500",
+      "display_phone": "(212) 796-1500",
+      "distance": 3811.036648241284
+    },
+    {
+      "id": "GxMLKEuQtIEGlRxLXnFfgQ",
+      "alias": "manhattan-penthouse-new-york-4",
+      "name": "Manhattan Penthouse",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/xZV7RnL6OZ90YmuWoCZqsw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/manhattan-penthouse-new-york-4?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 86,
+      "categories": [
+        { "alias": "venues", "title": "Venues & Event Spaces" },
+        { "alias": "catering", "title": "Caterers" }
+      ],
+      "rating": 4.5,
+      "coordinates": { "latitude": 40.736032, "longitude": -73.994159 },
+      "transactions": [],
+      "location": {
+        "address1": "80 5th Ave",
+        "address2": "Fl 17",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10011",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["80 5th Ave", "Fl 17", "New York, NY 10011"]
+      },
+      "phone": "+12126278838",
+      "display_phone": "(212) 627-8838",
+      "distance": 3401.1493292036666
+    },
+    {
+      "id": "IMA18MENFeqdZc5YVh8njg",
+      "alias": "brooklyn-botanic-garden-brooklyn-2",
+      "name": "Brooklyn Botanic Garden",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/gVyOrt9ixKc7CJygr5tJYg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/brooklyn-botanic-garden-brooklyn-2?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 1036,
+      "categories": [{ "alias": "gardens", "title": "Botanical Gardens" }],
+      "rating": 4.5,
+      "coordinates": { "latitude": 40.6692899, "longitude": -73.9633 },
+      "transactions": [],
+      "location": {
+        "address1": "990 Washington Ave",
+        "address2": "",
+        "address3": "",
+        "city": "Brooklyn",
+        "zip_code": "11225",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["990 Washington Ave", "Brooklyn, NY 11225"]
+      },
+      "phone": "+17186237200",
+      "display_phone": "(718) 623-7200",
+      "distance": 4817.002159260071
+    },
+    {
+      "id": "kGHAvZ5LxNvgDKYs2HGcSA",
+      "alias": "aqua-azul-yacht-new-york",
+      "name": "Aqua Azul Yacht",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/L-M6iB5RuNJVfX8tm0B_eg/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/aqua-azul-yacht-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 18,
+      "categories": [
+        { "alias": "boatcharters", "title": "Boat Charters" },
+        { "alias": "venues", "title": "Venues & Event Spaces" }
+      ],
+      "rating": 5.0,
+      "coordinates": { "latitude": 40.746657, "longitude": -74.010062 },
+      "transactions": [],
+      "location": {
+        "address1": "Pier 60 Chelsea Piers",
+        "address2": "",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10011",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["Pier 60 Chelsea Piers", "New York, NY 10011"]
+      },
+      "phone": "+19176861016",
+      "display_phone": "(917) 686-1016",
+      "distance": 4771.341614171171
+    },
+    {
+      "id": "O4UeWRZLKuS3GRC4ELJRog",
+      "alias": "housing-works-bookstore-new-york",
+      "name": "Housing Works Bookstore",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/tXQVd1i4-zLAM2pbqXgWsA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/housing-works-bookstore-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 599,
+      "categories": [
+        { "alias": "bookstores", "title": "Bookstores" },
+        { "alias": "venues", "title": "Venues & Event Spaces" },
+        { "alias": "cafes", "title": "Cafes" }
+      ],
+      "rating": 4.5,
+      "coordinates": { "latitude": 40.72454, "longitude": -73.9965931 },
+      "transactions": [],
+      "price": "$",
+      "location": {
+        "address1": "126 Crosby St",
+        "address2": "",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10012",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["126 Crosby St", "New York, NY 10012"]
+      },
+      "phone": "+12123343324",
+      "display_phone": "(212) 334-3324",
+      "distance": 2139.0072243623927
+    },
+    {
+      "id": "qZpTXNeodfkx0f67Ldng3g",
+      "alias": "symphony-space-new-york",
+      "name": "Symphony Space",
+      "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/gqXoqJTKeVjYtg6za4r-Kw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/symphony-space-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 78,
+      "categories": [{ "alias": "theater", "title": "Performing Arts" }],
+      "rating": 4.0,
+      "coordinates": { "latitude": 40.793933, "longitude": -73.9729 },
+      "transactions": [],
+      "location": {
+        "address1": "2537 Broadway",
+        "address2": "",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10025",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["2537 Broadway", "New York, NY 10025"]
+      },
+      "phone": "+12128645400",
+      "display_phone": "(212) 864-5400",
+      "distance": 10010.337158973867
+    },
+    {
+      "id": "67Sqzf37ndcB7cTEuuQM5Q",
+      "alias": "fat-friday-new-york",
+      "name": "Fat Friday",
+      "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Q9q1J9w0LZxidOnMIi0U-A/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/fat-friday-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 1,
+      "categories": [{ "alias": "festivals", "title": "Festivals" }],
+      "rating": 5.0,
+      "coordinates": { "latitude": 40.72114, "longitude": -73.98567 },
+      "transactions": [],
+      "location": {
+        "address1": "172 Norfolk St",
+        "address2": "",
+        "address3": "Angel Orensanz Foundation",
+        "city": "New York",
+        "zip_code": "10002",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "172 Norfolk St",
+          "Angel Orensanz Foundation",
+          "New York, NY 10002"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 1891.5241317214466
+    },
+    {
+      "id": "E2dth4-DyspHBddndGCsxw",
+      "alias": "san-gennaro-feast-new-york-2",
+      "name": "San Gennaro Feast",
+      "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/r-CHEP7LLNPQp1fQAK9cxw/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/san-gennaro-feast-new-york-2?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 271,
+      "categories": [{ "alias": "festivals", "title": "Festivals" }],
+      "rating": 3.5,
+      "coordinates": {
+        "latitude": 40.7201360073554,
+        "longitude": -73.9969754219055
+      },
+      "transactions": [],
+      "location": {
+        "address1": "109 Mulberry St",
+        "address2": "",
+        "address3": "Little Italy",
+        "city": "New York",
+        "zip_code": "10013",
+        "country": "US",
+        "state": "NY",
+        "display_address": [
+          "109 Mulberry St",
+          "Little Italy",
+          "New York, NY 10013"
+        ]
+      },
+      "phone": "",
+      "display_phone": "",
+      "distance": 1649.1471863837123
+    },
+    {
+      "id": "c7_p0PyNu-fsOGTFWJPZbw",
+      "alias": "overlook-at-bryant-park-new-york",
+      "name": "Overlook at Bryant Park",
+      "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/FxbVPBw3rmYveCmniCSpEA/o.jpg",
+      "is_closed": false,
+      "url": "https://www.yelp.com/biz/overlook-at-bryant-park-new-york?adjust_creative=YWm-4OpRVhbLbNYiyE4H3w&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=YWm-4OpRVhbLbNYiyE4H3w",
+      "review_count": 2,
+      "categories": [{ "alias": "venues", "title": "Venues & Event Spaces" }],
+      "rating": 5.0,
+      "coordinates": { "latitude": 40.752, "longitude": -73.98618 },
+      "transactions": [],
+      "location": {
+        "address1": "42ND St 6th Ave",
+        "address2": "",
+        "address3": "",
+        "city": "New York",
+        "zip_code": "10018",
+        "country": "US",
+        "state": "NY",
+        "display_address": ["42ND St 6th Ave", "New York, NY 10018"]
+      },
+      "phone": "+12127684242",
+      "display_phone": "(212) 768-4242",
+      "distance": 5558.548001503826
+    }
+  ],
+  "total": 10600,
+  "region": {
+    "center": { "longitude": -73.99429321289062, "latitude": 40.70544486444615 }
+  }
+}
