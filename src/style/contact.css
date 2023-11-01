@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    overflow-x: hidden;
     /*  */
     box-sizing: border-box;
     /*  */
@@ -10,9 +9,8 @@
 
 /******************   Navbar  Start    ******************************/
 /*   Logo font   */
-.logo, .footer-logo{
+.logo{
     font-family: 'Lavishly Yours', cursive;
-    overflow: visible !important;
 }
 /* Navbar elements font  */
 .font{
@@ -110,6 +108,7 @@ header {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    overflow-x: hidden;
 
 }
 
@@ -119,6 +118,8 @@ header {
     align-items: center;
     margin: 0 auto;
     gap: 30px;
+    overflow-x: hidden;
+
 }
 
 .about {
@@ -131,16 +132,22 @@ header {
     padding: 30px 30px;
     gap: 20px;
     margin-top: 50px;
+    overflow-x: hidden;
+
 }
 
 .about p{
     text-align: left;
+    overflow-x: hidden;
+
 }
 
 input {
     border: none;
     border-style: none none solid none;
     padding: 20px 80px;
+    overflow-x: hidden;
+
 }
 
 .envoyer button {
@@ -150,6 +157,8 @@ input {
     font-size: 26px;
     color: white;
     padding: 5%;
+    overflow-x: hidden;
+
 }
 
 /******************   Footer  Start   ******************************/
@@ -157,6 +166,8 @@ input {
 .bg-footer{
     background-color: #AAD9F9;
     width: 100%;
+    overflow-x: hidden;
+
 }
 
 .text-black{

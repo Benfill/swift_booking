@@ -58,7 +58,7 @@ const headerHtml = `<div class="navbar fixed top-0 left-0 right-0 z-10 p-4">
 					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
 				</svg>
 			</button>
-		</div>
+		  </div>
       <ul id="menuList" class="hidden lg:flex space-x-6 content-around text-black font-bold nav-text">
         <li><a href="./services.html" class=" hover:text-gray-600">Service</a></li>
         <li><a href="./testemonials.html" class="hover:text-gray-600">Testimonials</a></li>
@@ -66,7 +66,7 @@ const headerHtml = `<div class="navbar fixed top-0 left-0 right-0 z-10 p-4">
         <li><a href="./contact.html" class="hover:text-gray-600">Contact</a></li>
       </ul>
       <div class=" hidden lg:flex">
-        <a href="./login.html"><button class="  font bg-blue-700 text-white py-2 px-8 rounded-lg font-bold">Sign in</button></a>
+        <a class="login-btn" href="./login.html"><button class="  font bg-blue-700 text-white py-2 px-8 rounded-lg font-bold">Sign in</button></a>
       </div>
     </nav>
   </div>
