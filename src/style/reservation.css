@@ -13,6 +13,13 @@ body {
     margin-bottom: 100px;
 }
 
+.cancel-main {
+    height: 493px;
+    width: 100%;
+    display: flex;
+    
+}
+
 /******************   Navbar  Start    ******************************/
 /*   Logo font   */
 .logo{
