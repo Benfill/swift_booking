@@ -1,32 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <!-- this is the link to tailwind framework -->
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet"/>
+    <!-- this is the path to the contact css file -->
+    <link rel="stylesheet" href="../style/contact.css"/>
 
-    <!-- this is the path to the css file -->
-    <link rel="stylesheet" href="src/style/style.css">
+
     <title>SwiftBooking</title>
-  </head>
-  <body>
+</head>
 
-    <!-- this is the header section -->
-    <header></header>
-    <!-- the end of header section -->
+<body>
+<!-- Navbar -->
 
-    <!-- this is the main section -->
-    <main>
-    </main>
-    <!-- the end of main section -->
 
-    <!-- this is the footer section -->
-    <footer></footer>
-    <!-- the end of footer section -->
+<!-- this is the header section -->
+<header></header>
+<!-- the end of header section -->
 
-    <script src="../script/main.js"></script>
+<!-- this is the main section -->
+<main>
+    <div class="row">
+        <div class="col-4">
+            <div class="container">
+                <div class="maps">
+                    <img class="icon" src="/src/img/maps.png" alt=""/>
+                    <h3>Adresse</h3>
+                    <p>Lorem ipsum dolor sit.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="container">
+                <div class="telephone">
+                    <img class="icon" src="/src/img/icon_fone.png" alt=""/>
+                    <h3>Telephone</h3>
+                    <p>0505050505</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="container">
+                <div class="mail">
+                    <img class="icon" src="/src/img/icon_email.png" alt=""/>
+                    <h3>Email</h3>
+                    <p>swiftbooking@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- this is the inputs -->
 
-  </body>
+    <!-- comprendre onsubmit et submit -->
+
+    <div class="row">
+<!--        <div class="col-1"></div>-->
+        <div class="col-6">
+            <div class="container">
+                <form class="champ" onsubmit="">
+                    <input
+                            type="text"
+                            name="Champ_contact"
+                            placeholder="NAME"
+                            required
+                    />
+                    <input
+                            type="text"
+                            name="Champ_contact"
+                            placeholder="EMAIL"
+                            required
+                    />
+                    <input
+                            type="text"
+                            name="Champ_contact"
+                            placeholder="MESSAGE"
+                            required
+                    />
+                    <div class="envoyer">
+                        <button type="submit" value="envoyer">Envoyer</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="container">
+                <div class="about">
+                    <div class="align_about"
+                    <h3>About us</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.<br> Ipsa quidem laboriosam, quo dignissimos
+                        accusantium<br> quia mollitia autem dolores rem eveniet.<br> Ipsa quidem laboriosam, quo dignissimos
+                        accusantium<br> quia mollitia autem dolores rem eveniet.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+<!--        <div class="col-1"></div>-->
+    </div>
+
+</main>
+<!-- the end of main section -->
+
+<!-- this is the footer section -->
+<footer></footer>
+<!-- the end of footer section -->
+
+<script src="../script/main.js"></script>
+</body>
 </html>
+
+<!-- step1 photo contact sous navbar  ok-->
+<!-- step2 les icons maps phone et email ok -->
+<!-- step3 inputs avec le boutton d'envoyer prob border -->
+<!-- step4 about us mochkiiiila border -->
