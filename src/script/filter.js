@@ -86,14 +86,14 @@ function filterList(reservationType, city) {
 // showingList is a function shows the service list dpending on params
 function showingList(index, service, city) {
   if (service == "restaurant") {
-    card.innerHTML += `<div class="max-w-sm mx-auto bg-white rounded overflow-hidden shadow-lg" onclick="takeMeToServicePage(${city}, "restaurant", ${index})">
+    card.innerHTML += `<div class="max-w-sm mx-auto bg-white rounded overflow-hidden shadow-lg" onclick="takeMeToServicePage('restaurant', ${index});">
     <img src="${city.restaurant.businesses[index].image_url}" alt="Placeholder Image" class="w-full h-48 object-cover">
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">${city.restaurant.businesses[index].name}</div>
       <p class="text-gray-700">${city.restaurant.businesses[index].location.address1} ${city.restaurant.businesses[index].location.city}</p>
   </div>`;
   } else {
-    card.innerHTML += `<div class="max-w-sm mx-auto bg-white rounded overflow-hidden shadow-lg" onclick="takeMeToServicePage(${city}, "event", ${index})">
+    card.innerHTML += `<div class="max-w-sm mx-auto bg-white rounded overflow-hidden shadow-lg" onclick="takeMeToServicePage('event', ${index});">
     <img src="${city.event.businesses[index].image_url}" alt="Placeholder Image" class="w-full h-48 object-cover">
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">${city.event.businesses[index].name}</div>
@@ -149,10 +149,4 @@ function changePageColor(page) {
   }
 }
 
-
-function takeMeToServicePage(city, service, index) {
-
-  window.location.href = "";
-
-}
 
