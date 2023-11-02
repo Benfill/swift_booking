@@ -183,7 +183,7 @@ produits.forEach((element, index) => {
         "business-data",
         JSON.stringify(cityChecker.restaurant.businesses[index])
       );
-    else
+    else if (serviceChecker == "event")
       localStorage.setItem(
         "business-data",
         JSON.stringify(cityChecker.event.businesses[index])
