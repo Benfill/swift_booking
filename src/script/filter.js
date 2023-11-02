@@ -54,6 +54,7 @@ filterBtn.addEventListener("click", function () {
       reservationType: reservationType.value,
       city: city.value,
       guests: guests.value,
+      time: 0
     };
     localStorage.setItem("searchData", JSON.stringify(searchData));
   }

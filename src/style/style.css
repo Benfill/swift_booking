@@ -101,6 +101,9 @@ main {
 .shadow-text{
     text-shadow: 2px 1px #00000036;  
 }
+.content{
+    height: 100%;
+}
 
 .localisation{
     justify-content: space-between;
@@ -108,42 +111,6 @@ main {
 .adress{
     margin-right: 40%;
 }
-/* .description{
-    display: flex;
-    align-items: center;
-}
-.text-description{
-    width: 40%;
-    text-align: justify;
-} */
-/* .localisation{
-width: 100%;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-.maps{
-width: 100%;
-}
-.adress{
-width: 100%;   
-} */
-
-
-/* .galerie{
-    width: 100%;
-} */
-
-/* .galerie2{
-    display: flex;
-    justify-content: space-between;
-}
-.galerie3{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-} */
 
 @media screen and (max-width: 426px) {
     .content{

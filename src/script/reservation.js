@@ -35,7 +35,7 @@ confirm.addEventListener("click", () => {
     };
 
     localStorage.setItem("user-info", JSON.stringify(userInfo));
-    window.location.href = "../pages/devis.html"
+    window.location.href = "../pages/service_content.html"
   }
 });
 
