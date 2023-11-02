@@ -1,42 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- this is the link to tailwind framework -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
-    <!-- This for the fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lavishly+Yours&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
-    <!-- this is the path to the css file -->
-    <link rel="stylesheet" href="../style/style.css"/>
-    <link rel="stylesheet" href="../style/login.css">
-    <title>SwiftBooking</title>
-  </head>
-  <body>
-    <!-- this is the header section -->
-    <header class="js-header">
-    </header>
-    <!-- the end of header section -->
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- this is the main section -->
-    <main></main>
-    <!-- the end of main section -->
+  <!-- this is the link to tailwind framework -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet" />
+  <!-- This for the fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Rubik:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter&family=Lavishly+Yours&family=Rubik:ital,wght@1,300&display=swap"
+    rel="stylesheet">
+  <!-- this is the path to the css file -->
+  <link rel="stylesheet" href="../style/style.css" />
+  <!-- <link rel="stylesheet" href="../style/sign in.css">  -->
+  <link rel="stylesheet" href="../style/sign up.css">
+  <title>SwiftBooking</title>
+</head>
 
-    <!-- this is the footer section -->
-    <!-- this is the footer section -->
-    <footer class="bg-footer dark:bg-gray-900 js-footer"></footer>
-    <!-- the end of footer section -->
+<body>
+  <!-- this is the header section -->
+  <header class="js-header">
+  </header> 
+  <!-- the end of header section -->
 
-    <script src="../script/main.js"></script>
-    <script src="../script/nav-footer.js"></script>
-  </body>
+  <!-- this is the main section -->
+  <main>
+    <!-- *********************************sign in page************************ -->
+     <div class="singIn">
+
+      <div class="form-container">
+        <h1 id="ma">sign in</h1>
+        <form>
+
+          <input type="text" id="nom" placeholder="username">
+
+          <input type="password" id="password" placeholder="password">
+          <div class="container1">
+            <button class="btn">sign in</button>
+            
+          </div>
+        </form>
+      </div>
+      <div class="salle">
+      <img  src="../img/salle 1.jpg" alt="image"></div>
+      <div class="text">
+        <h1>Hello!</h1>
+        <p>Enter your personnel details<br>and<br>start journey with us</p>
+        <button class="btn1 js-signup">sign up</button>
+      </div>
+    </div> 
+    <!-- *********************************end sign in page************************ -->
+    <!-- *********************************sign up page************************ -->
+         <div class="singUp hide">
+          <div class="resturant">
+            <img  src="../img/resturant.png" alt="image"></div>
+            <div class="text">
+              <h1 id="hh1">Welcome back!</h1>
+              <button class="btn4 js-signin">sign in</button>
+            </div>
+          <div class="form-container1">
+            <h1 id="title">sign up</h1>
+            <form>
+              <input type="text"  placeholder="username">
+              <input type="email"  placeholder="Email">
+              <input type="password"  placeholder="password">
+              <div class="container2">
+                <button class="btn5">sign up</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+  </main>
+  <script>
+        var signIn = document.querySelector('.singIn');
+        var signUp = document.querySelector('.singUp');
+        var signUpBtn = document.querySelector('.js-signup');
+        var signInBtn = document.querySelector('.js-signin');
+
+        signInBtn.addEventListener("click", () => {
+          signIn.classList.remove("hide");
+          signUp.classList.add("hide");
+        });
+        signUpBtn.addEventListener("click", () => {
+          signIn.classList.add("hide");
+          signUp.classList.remove("hide");
+        });
+</script>
+  <!-- the end of main section -->
+
+  <!-- this is the footer section -->
+  <!-- this is the footer section -->
+   <footer class="bg-footer dark:bg-gray-900 js-footer"></footer> 
+  <!-- the end of footer section -->
+
+  <script src="../script/main.js"></script>
+  <script src="../script/nav-footer.js"></script>
+</body>
+
 </html>
