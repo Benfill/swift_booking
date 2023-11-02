@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- this is the link to tailwind framework -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!-- This for the fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lavishly+Yours&family=Rubik:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- this is the path to the css file -->
+    <link rel="stylesheet" href="../style/style.css"/>
+    <title>SwiftBooking</title>
+  </head>
+  <body>
+    <!-- this is the header section -->
+    <header class="js-header">
+    </header>
+    <!-- the end of header section -->
+
+    <!-- this is the main section -->
+
+    <main class="p-12 my-14 content">         
+        <div class="grid grid-cols-2 gap-2 pic">
+            <div>
+                <img class="h-auto max-w-full " src="/src/img/Shoelifer-Une-spots-dar-dada-casablanca-restaurant-medina-2019.jpg" alt="">
+            </div>
+            <div class="grid grid-rows-2 gap-2 galerie">
+                <div class="grid grid-cols-2 gap-2">
+                    <div >
+                        <img class="h-64 max-w-64" src="/src/img/1RT_9910-1024x788.jpg" alt="">
+                    </div>
+                    <div >
+                        <img class="h-64 max-w-full" src="/src/img/IMG_9390-1.jpg" alt="">
+                    </div>    
+                </div>
+                <div class="grid grid-cols-3 gap-2">
+                    <div>
+                        <img class="h-52 max-w-full " src="/src/img/au-restaurant-dar-dada.jpg" alt="">
+                    </div>
+                    <div>
+                        <img class="h-52 max-w-full " src="/src/img/Couscous-DD-1024x683.jpeg" alt="">
+                    </div>
+                    <div>
+                        <img class="h-52 max-w-full " src="/src/img/galerie-1024x682.jpeg" alt="">
+                    </div>
+                </div>
+            </div> 
+        </div>
+
+        <div class="flex description">
+            <div class=" w-full text-justify text-description">
+                <h2 class="text-4xl font-medium shadow-text">DAR DADA</h2>
+                <h3 class="text-3xl font-medium shadow-text mb-4">Moroccan fusion cuisine</h3>                
+              <p class="text-black-600 font-medium text-xl">
+                Situé à quelques pas du jardin "Arsa" en médina, Dar Dada Casablanca est un restaurant qui promet bien des surprises. Niché dans un charmant riad, il valorise autant la tradition qu'il ne la réinvente avec malice et brio. Escale pour les férus de déco, Dar Dada Casablanca l'est bien sûr pour les amateurs de bonnes tables dont les papilles, de l'entrée au dessert, seront comblées. Sa large porte en bois passée, Dar Dada Casablanca nous emporte, d'emblée, dans un voyage dans le temps.
+              </p>
+            </div>
+            <div class="mx-72 p-4  shadow-md mr-36 carte">
+              <div class="mb-4 w-64 border border-gray-350 p-2">
+                <p class="text-gray-400">Party size</p>
+                <div class="flex items-center space-x-24">
+                    <span id="guestCount">2 Guests</span>
+                    <div class="space-x-3">
+                        <button class="px-2 py-1" id="decrementGuests">
+                          <i class="fas fa-minus"></i> 
+                        </button>
+                        <button class="px-2 py-1" id="incrementGuests">
+                          <i class="fas fa-plus"></i> 
+                        </button>
+                    </div>
+                </div>
+              </div>
+              <div class="mb-4 border border-gray-350 p-2">
+                <p class="text-gray-400">Date</p>
+                <input type="date" id="selectedDate" class="w-full px-2 py-1">
+              </div>
+              <div class="mb-4 border border-gray-350 p-2">
+                <p class="text-gray-400">Time</p>
+                <select id="selectedTime" class="w-full px-2 py-1">
+                </select>
+              </div>
+              <div class="flex justify-center">
+                  <button class="bg-blue-700 text-white font-medium px-8 py-2 rounded">Réserver</button>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col w-full space-y-6 mt-4 ">
+                <h2 class="text-4xl font-medium shadow-text text-description2">Hours and location</h2>
+                <div class="flex  localisation">
+                    <div class="w-96 maps">  
+                        <img src="/src/img/maps2.png" alt="maps"">
+                    </div>
+                    <div class="flex flex-col space-y-4 w-72 adress">
+                        <a href="http://www.dardada.com/" class="text-blue-700 underline">Corvino Supper Club & Tasting Room1830 Walnut StreetKansas City, MO 64108</a>
+                        <p><ion-icon class="text-blue-800 text-xl mr-6" name="location-outline"></ion-icon>31 Rue El Arsa, Casablanca 20250</p>
+                        <p><ion-icon class="text-blue-800 text-xl mr-6" name="time-outline"></ion-icon>Ouvre à 12:00-15:30
+                            <p class="ml-24">19:00-01:00</p>
+                        <p class="ml-12">Dimanche Fermé</p></p>
+                        <p><ion-icon class="text-blue-800 text-xl mr-6" name="call-outline"></ion-icon>+212 661 602 602</p>
+                        <p><ion-icon class="text-blue-800 text-xl mr-6" name="mail-outline"></ion-icon>commercial@ibgroup.ma</p>
+                    </div>
+                </div>
+          </div>
+          
+    </main>
+    <!-- the end of main section -->
+
+    <!-- this is the footer section -->
+    <!-- this is the footer section -->
+    <footer class="bg-footer dark:bg-gray-900 js-footer"></footer>
+    <!-- the end of footer section -->
+
+    <script src="../script/main.js"></script>
+    <script src="../script/nav-footer.js"></script>
+    
+    <!--script pour incrementer ou decrementer le nombre de guests-->
+    <script>
+        // Sélectionnez les éléments de bouton et l'élément de compteur
+        const decrementButton = document.getElementById("decrementGuests");
+        const incrementButton = document.getElementById("incrementGuests");
+        const guestCount = document.getElementById("guestCount");
+    
+        let currentGuests = 2; // Nombre d'invités actuel
+    
+        // Fonction pour mettre à jour le nombre d'invités et afficher
+        const updateGuestCount = () => {
+            guestCount.textContent = `${currentGuests} Guest${currentGuests !== 1 ? "s" : ""}`;
+        };
+    
+        // Gestionnaire de clic pour le bouton de décrémentation
+        decrementButton.addEventListener("click", () => {
+            if (currentGuests > 1) {
+                currentGuests--;
+                updateGuestCount();
+            }
+        });
+    
+        // Gestionnaire de clic pour le bouton d'incrémentation
+        incrementButton.addEventListener("click", () => {
+            currentGuests++;
+            updateGuestCount();
+        });
+    
+        // Afficher le nombre d'invités initial
+        updateGuestCount();
+    </script>
+
+    <!--script pour afficher la liste des temps li kyna f la carte de reserver -->
+    <script>
+        const selectedTime = document.getElementById("selectedTime");
+    
+        // Fonction pour ajouter une option à la liste déroulante
+        const addTimeOption = (time) => {
+            const option = document.createElement("option");
+            option.value = time;
+            option.textContent = time;
+            selectedTime.appendChild(option);
+        };
+    
+        // Générer des plages horaires de 30 minutes
+        for (let hour = 0; hour <= 23; hour++) {
+            for (let minute = 0; minute < 60; minute += 30) {
+                const formattedHour = hour.toString().padStart(2, "0");
+                const formattedMinute = minute.toString().padStart(2, "0");
+                const time = `${formattedHour}:${formattedMinute}`;
+                addTimeOption(time);
+            }
+        }
+    </script>
+  </body>
+</html>
