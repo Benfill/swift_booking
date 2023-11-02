@@ -107,15 +107,19 @@ function filterList(reservationType, city) {
 // showingList is a function shows the service list dpending on params
 function showingList(index, service, city) {
   if (service == "restaurant") {
-    card.innerHTML += `<div class="service max-w-sm mx-auto bg-white rounded overflow-hidden shadow-lg">
-    <img class="images produit"src="${city.restaurant.businesses[index].image_url}" alt="Placeholder Image" class="w-full h-48 object-cover">
+    card.innerHTML += `<div class="service  bg-white rounded overflow-hidden shadow-lg"> 
+    <div class="image-container w-full h-fit" style="height: 200px; width: 100%; overflow: hidden;">
+    <img class="images produit"src="${city.restaurant.businesses[index].image_url}" alt="Placeholder Image" class="w-full h-full object-contain">
+    </div>
     <div class="px-6 py-4">
       <div class="produit font-bold text-xl mb-2">${city.restaurant.businesses[index].name}</div>
       <p class="text-gray-700">${city.restaurant.businesses[index].location.address1} ${city.restaurant.businesses[index].location.city}</p>
   </div>`;
   } else {
     card.innerHTML += `<div class="service max-w-sm mx-auto bg-white rounded overflow-hidden shadow-lg">
-    <img src="${city.event.businesses[index].image_url}" alt="Placeholder Image" class="w-full h-48 object-cover">
+    <div class="image-container w-full h-fit" style="height: 200px; width: 100%; overflow: hidden;">
+    <img src="${city.event.businesses[index].image_url}" alt="Placeholder Image" class="w-full h-full object-contain">
+    </div>
     <div class="px-6 py-4">
       <div class="font-bold text-xl mb-2">${city.event.businesses[index].name}</div>
       <p class="text-gray-700">${city.event.businesses[index].location.address1} ${city.event.businesses[index].location.city}</p>
