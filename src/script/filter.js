@@ -184,5 +184,6 @@ produits.forEach((element, index) => {
         "business-data",
         JSON.stringify(cityChecker.event.businesses[index])
       );
+    window.location.href = "./service_content.html";
   });
 });
