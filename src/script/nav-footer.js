@@ -50,7 +50,7 @@ const headerHtml = `<div class="navbar fixed top-0 left-0 right-0 z-10 p-4">
     <nav class="flex flex-wrap items-center justify-between">
     <a href="../../index.html" class="logo text-black text-3xl font-bold nav-text overflow-hidden">SwiftBooking</a>
       <div class="lg:hidden">
-			<button class="navbar-burger flex items-center text-blue-600 p-3">
+			<button id="navbar-burger" class="navbar-burger flex items-center text-blue-600 p-3">
 				<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 					<title>Mobile menu</title>
 					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
@@ -68,7 +68,16 @@ const headerHtml = `<div class="navbar fixed top-0 left-0 right-0 z-10 p-4">
       </div>
     </nav>
   </div>
-</div>`;
+</div>
+<!-- Add the mobile menu items here -->
+    <div id="mobile-menu" class="mobile-menu ">
+      <a href="./services.html">Service</a>
+      <a href="./testemonials.html">Testimonials</a>
+      <a href="./reservation.html">Reservation</a>
+      <a href="./contact.html">Contact</a>
+      <a href="./login.html"><button class=" btn font bg-blue-700 text-white py-2 px-8 rounded-lg font-bold">Sign in</button></a>
+    </div>
+`;
 
 // variable takes the footer element
 const footerElm = document.getElementsByClassName("js-footer");

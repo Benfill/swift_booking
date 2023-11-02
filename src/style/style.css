@@ -220,3 +220,89 @@ main {
 }
 
 /******************   reservation-content  end   *********************/
+
+/************* Mobile menu block ************/
+
+.mobile-menu {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 30%;
+    background: #2599FB;
+    display: none;
+    flex-direction: column;
+    padding: 1rem;
+    z-index: 1000;
+}
+
+.mobile-menu a {
+    display: block;
+    padding: 0.5rem 0;
+    color: white;
+    font-weight: bold;
+}
+
+.mobile-menu.show {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+@media (max-width: 430px) {
+    .process-img{
+        height: 200px;
+        width:350px;
+    }
+   .display{
+       display: none;
+   }
+   .main{
+       height: 200px;
+   }
+
+
+    .mobile-menu {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 30%;
+        background: #2599FB;
+        display: none;
+        flex-direction: column;
+        z-index: 1000;
+    }
+
+    .mobile-menu a {
+        display: block;
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+
+    }
+
+    .mobile-menu.show {
+        display: flex;
+        align-items: center;
+    }
+
+    .btn{
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 769px) {
+
+    .display1{
+        display: none;
+    }
+    .main{
+        height: 100px;
+    }
+
+    
+}
+

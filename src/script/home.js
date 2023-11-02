@@ -91,12 +91,7 @@ const homeFooterElm = document.querySelector(".js-index-footer");
 homeHeaderElm.innerHTML = homeHeaderHtml;
 homeFooterElm.innerHTML = homeFooterHtml;
 
-const mobileMenu = document.getElementById("mobile-menu");
-const burgerButton = document.getElementById("navbar-burger");
 
-burgerButton.addEventListener("click", function () {
-  mobileMenu.classList.toggle("show");
-});
 
 // selecting search btn by his id
 const filterBtn = document.getElementById("filter-button");
