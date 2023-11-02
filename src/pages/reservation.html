@@ -47,17 +47,21 @@
               <div class="flex justify-around "><!-- first and last name -->
                 <div class="mb-4">
                   <input type="text" id="first-name" name="first-name" class="w-full border border-black py-3 px-20 font text-xs  sm:text-base"  placeholder="First name" required>
+                  <p><span id="sp-first-name" class="text-red-400 font-bold"></span></p>
                 </div>
                 <div class="mb-4">
                   <input type="text" id="last-name" name="last-name" class="w-full border border-black py-3 px-20 font text-xs sm:text-base"  placeholder="Last name" required>
+                  <p><span id="sp-last-name" class="text-red-400 font-bold"></span></p>
                 </div>
               </div>
               <div class="flex justify-around"><!-- email and phone number -->
                 <div class="mb-4">
                   <input type="email" id="email" name="email" class="w-full border border-black py-3 px-20 font text-xs sm:text-base"  placeholder="email" required>
+                  <p><span id="sp-email" class="text-red-400  font-bold"></span></p>
                 </div>
                 <div class="mb-4">
                   <input type="tel" id="phone-number" name="phone-number" class="w-full border border-black py-3 px-20  font text-xs sm:text-base"  placeholder="Phone number" required>
+                  <p><span id="sp-phone" class="text-red-400  font-bold"></span></p>
                 </div>
               </div>
 
@@ -96,8 +100,8 @@
             </div>
               <!-- Buttons -->
             <div class="mt-4 flex 	 justify-evenly  ">
-              <button type="submit" id="confirm" class=" lg:px-3  xl:px-9 md:px-1 px-9 md:text-sm   bg-blue-700 text-white py-2 rounded font font-bold mr-10">Confirm</button>
-              <button type="submit" id="cancel" class=" lg:px-3  xl:px-9 md:px-1  px-9 md:text-sm  bg-blue-700 text-white py-2 rounded font font-bold">Cancel </button>
+              <button type="submit"  onclick="affiche()" class=" lg:px-3  xl:px-9 md:px-1 px-9 md:text-sm   bg-blue-700 text-white py-2 rounded font font-bold mr-10">Confirm</button>
+              <button type="submit"   onclick="window.location.reload()"  class="lg:px-3  xl:px-9 md:px-1  px-9 md:text-sm  bg-blue-700 text-white py-2 rounded font font-bold">Cancel </button>
             </div>
           </div>
           <!-- Reservation confirmation  End-->
@@ -112,8 +116,10 @@
     <footer class="bg-footer dark:bg-gray-900 js-footer"></footer>
     <!-- the end of footer section -->
 
-    <script src="../script/reservation.js"></script>
+    <script src="../script/main.js"></script>
     <script src="../script/nav-footer.js"></script>
+    <script src="../script/reservation-input-check.js"></script>
+
     <!--icons ionic-->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
