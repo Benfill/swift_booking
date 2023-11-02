@@ -5,10 +5,6 @@ const productAddress = document.querySelector(".js-address");
 const searchData = JSON.parse(localStorage.getItem("searchData"));
 const serviceData = JSON.parse(localStorage.getItem("business-data"));
 
-console.log(searchData);
-
-
-
 productDetail.innerHTML = `<h2 class="text-4xl font-medium shadow-text product-title">${serviceData.name}</h2>
 <h3 class="text-3xl font-medium shadow-text mb-4 product-category">${serviceData.categories[0].title}</h3>                
 <p class="text-black-600 font-medium text-xl product-desc">
@@ -23,3 +19,24 @@ productAddress.innerHTML = `<a href="${serviceData.url}" class="text-blue-700 un
     <p class="ml-24">19:00-01:00</p>
 <p class="ml-12">Dimanche Fermé</p></p>
 <p><ion-icon class="text-blue-800 text-xl mr-6" name="call-outline"></ion-icon>${serviceData.phone}</p>`;
+
+const reservationBtn = document.querySelector(".js-reserver-btn");
+
+reservationBtn.addEventListener("click", () => {
+  const time = document.querySelector("#selectedTime");
+  const date = document.querySelector("#selectedDate");
+
+  if (date.value == "") {
+    reservationBtn.style.backgroundColor = "red";
+    setTimeout(() => {
+      reservationBtn.style.backgroundColor = "#1D4ED8";
+    }, 3000);
+  } else {
+    searchData.date = date.value;
+    searchData.time = time.value;
+    localStorage.setItem("searchData", JSON.stringify(searchData));
+    localStorage.setItem("reservedData", JSON.stringify(serviceData));
+    window.location.href = "./reservation.html";
+  }
+  console.log(searchData);
+});

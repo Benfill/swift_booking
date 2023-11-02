@@ -69,7 +69,7 @@
                 </select>
               </div>
               <div class="flex justify-center">
-                  <button class="bg-blue-700 text-white font-medium px-8 py-2 rounded">Réserver</button>
+                  <button class="bg-blue-700 text-white font-medium px-8 py-2 rounded js-reserver-btn">Réserver</button>
               </div>
             </div>
           </div>
@@ -95,7 +95,6 @@
     <!-- the end of main section -->
 
     <!-- this is the footer section -->
-    <!-- this is the footer section -->
     <footer class="bg-footer dark:bg-gray-900 js-footer"></footer>
     <!-- the end of footer section -->
 
@@ -109,8 +108,10 @@
         const decrementButton = document.getElementById("decrementGuests");
         const incrementButton = document.getElementById("incrementGuests");
         const guestCount = document.getElementById("guestCount");
+
     
         let currentGuests = 2; // Nombre d'invités actuel
+        searchData.guests = 2;
     
         // Fonction pour mettre à jour le nombre d'invités et afficher
         const updateGuestCount = () => {
@@ -122,7 +123,7 @@
             if (currentGuests > 1) {
                 currentGuests--;
                 updateGuestCount();
-                
+                searchData.guests = currentGuests;
             }
         });
     
@@ -130,6 +131,7 @@
         incrementButton.addEventListener("click", () => {
             currentGuests++;
             updateGuestCount();
+            searchData.guests = currentGuests;
         });
     
         // Afficher le nombre d'invités initial
@@ -149,7 +151,7 @@
         };
     
         // Générer des plages horaires de 30 minutes
-        for (let hour = 0; hour <= 23; hour++) {
+        for (let hour = 11; hour <= 23; hour++) {
             for (let minute = 0; minute < 60; minute += 30) {
                 const formattedHour = hour.toString().padStart(2, "0");
                 const formattedMinute = minute.toString().padStart(2, "0");

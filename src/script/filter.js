@@ -24,8 +24,6 @@ if (JSON.parse(localStorage.getItem("searchData"))) {
   if (cityChecker2 === "nyc") cityChecker = nyc;
   else if (cityChecker2 === "tangier") cityChecker = la;
   else cityChecker = atlanta;
-
-  console.log(cityChecker);
 }
 for (let i = 0; i < 12; i++) {
   showingList(i, serviceChecker, cityChecker);
@@ -39,7 +37,7 @@ const city = document.getElementById("city");
 const guests = document.getElementById("guests");
 let searchData;
 
-date.value = "03-11-2023";
+date.value = "2023-11-03";
 // getting search values
 filterBtn.addEventListener("click", function () {
   let incorrect = document.querySelector(".incorrect");
