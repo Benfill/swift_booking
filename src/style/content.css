@@ -29,6 +29,10 @@ main {
 
 /******************   Service page  End    ******************************/
 
+.pagination {
+    cursor: pointer;
+}
+
 
 
 /******************   Service page  End    ******************************/
@@ -84,23 +88,19 @@ main {
         height: 2000px;
     }  
 }
-
-@media screen and (max-width: 640px) {
-    main {
-        /* height: 4000px; */
-       
-    }  
-}
 /******************   Footer  End   ******************************/
 
 /******************   reservation-content  Start   *********************/
-.shadow-text{
-    text-shadow: 2px 1px #00000036;  
-}
 .content{
     height: 100%;
 }
-
+.shadow-text{
+    text-shadow: 2px 1px #00000036;  
+}
+.guest{
+    display: flex;
+    justify-content: space-between;
+   }
 .localisation{
     justify-content: space-between;
 }
@@ -131,6 +131,10 @@ main {
         align-items: center;
         width: 100%;
     }
+    .text-description{
+        display: flex;
+        flex-direction: column;
+    }
     .text-description h2{
         font-size: 30px;
     }
@@ -141,11 +145,15 @@ main {
         font-size: 26px;
     }
    .carte{
-    justify-content: center;
-    width: 80%;
+    width: 100%;
     margin: 0;
     margin-top: 16px;
    }
+   
+   .input-carte{
+    width: 100%;
+   }
+   
    .localisation{
     width: 100%;
     display: flex;
@@ -196,10 +204,16 @@ main {
     .text-description h3{
         font-size: 26px;
     }
-   .carte{
-    width: 50%;
-    margin-top: 16px;
-   }
+    .carte{
+        width: 80%;
+        margin: 0;
+        margin-top: 16px;
+       }
+       
+       .input-carte{
+        width: 100%;
+       }
+       
    .localisation{
     width: 100%;
     display: flex;
@@ -210,11 +224,10 @@ main {
     margin-bottom: 16px;
    }
    .adress{
-    width: 60%;
+    width: 80%;
     margin: 0;
    }
 }
-
 /******************   reservation-content  end   *********************/
 
 /************* Mobile menu block ************/

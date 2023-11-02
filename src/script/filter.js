@@ -38,6 +38,8 @@ const reservationType = document.getElementById("reservation-type");
 const city = document.getElementById("city");
 const guests = document.getElementById("guests");
 let searchData;
+
+date.value = "03-11-2023";
 // getting search values
 filterBtn.addEventListener("click", function () {
   let incorrect = document.querySelector(".incorrect");
@@ -54,9 +56,10 @@ filterBtn.addEventListener("click", function () {
       reservationType: reservationType.value,
       city: city.value,
       guests: guests.value,
-      time: 0
+      time: 0,
     };
     localStorage.setItem("searchData", JSON.stringify(searchData));
+    savingData();
   }
 });
 
@@ -144,6 +147,7 @@ function pagination(page) {
       changePageColor(pageChecker);
     }
   }
+  savingData();
 }
 
 const page_1 = document.querySelector(".pagination-1");
@@ -173,21 +177,24 @@ function changePageColor(page) {
   }
 }
 
-const produits = document.querySelectorAll(".service");
-const images = document.querySelectorAll(".images");
-
-produits.forEach((element, index) => {
-  element.addEventListener("click", () => {
-    if (serviceChecker == "restaurant")
-      localStorage.setItem(
-        "business-data",
-        JSON.stringify(cityChecker.restaurant.businesses[index])
-      );
-    else if (serviceChecker == "event")
-      localStorage.setItem(
-        "business-data",
-        JSON.stringify(cityChecker.event.businesses[index])
-      );
-    window.location.href = "./service_content.html";
+function savingData() {
+  const produits = document.querySelectorAll(".service");
+  produits.forEach((element, index) => {
+    console.log("dkhl");
+    element.addEventListener("click", () => {
+      if (serviceChecker == "restaurant")
+        localStorage.setItem(
+          "business-data",
+          JSON.stringify(cityChecker.restaurant.businesses[index])
+        );
+      else if (serviceChecker == "event")
+        localStorage.setItem(
+          "business-data",
+          JSON.stringify(cityChecker.event.businesses[index])
+        );
+      window.location.href = "./service_content.html";
+    });
   });
-});
+}
+
+savingData();

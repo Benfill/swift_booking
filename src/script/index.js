@@ -33,7 +33,7 @@ if (nextButton && prevButton) {
 showImage(currentIndex); // Show the first image initially
 
 function startSlider() {
-    setInterval(showNextImage, 5000);
+    setInterval(showNextImage, 3000);
 }
 
 startSlider();
