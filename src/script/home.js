@@ -91,10 +91,28 @@ const homeFooterElm = document.querySelector(".js-index-footer");
 homeHeaderElm.innerHTML = homeHeaderHtml;
 homeFooterElm.innerHTML = homeFooterHtml;
 
-
 const mobileMenu = document.getElementById("mobile-menu");
 const burgerButton = document.getElementById("navbar-burger");
 
 burgerButton.addEventListener("click", function () {
-    mobileMenu.classList.toggle("show");
+  mobileMenu.classList.toggle("show");
+});
+
+// selecting search btn by his id
+const filterBtn = document.getElementById("filter-button");
+const date = document.getElementById("date");
+const reservationType = document.getElementById("reservation-type");
+const city = document.getElementById("city");
+const guests = document.getElementById("guests");
+let searchData;
+// getting search values
+filterBtn.addEventListener("click", function () {
+  searchData = {
+    date: date.value,
+    reservationType: reservationType.value,
+    city: city.value,
+    guests: guests.value,
+  };
+  localStorage.setItem("searchData", JSON.stringify(searchData));
+  window.location.href = "./src/pages/services.html";
 });

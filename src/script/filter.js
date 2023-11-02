@@ -17,8 +17,18 @@ let serviceChecker = "restaurant";
 const card = document.querySelector(".js-card");
 
 // showing cards
+if (JSON.parse(localStorage.getItem("searchData"))) {
+  let checker = JSON.parse(localStorage.getItem("searchData"));
+  serviceChecker = checker.reservationType;
+  let cityChecker2 = checker.city;
+  if (cityChecker2 === "nyc") cityChecker = nyc;
+  else if (cityChecker2 === "tangier") cityChecker = la;
+  else cityChecker = atlanta;
+
+  console.log(cityChecker);
+}
 for (let i = 0; i < 12; i++) {
-  showingList(i, "restaurant", nyc);
+  showingList(i, serviceChecker, cityChecker);
 }
 
 // selecting search btn by his id
@@ -30,25 +40,23 @@ const guests = document.getElementById("guests");
 let searchData;
 // getting search values
 filterBtn.addEventListener("click", function () {
-  let incorrect = document.querySelector(".incorrect")
+  let incorrect = document.querySelector(".incorrect");
   incorrect.textContent = "";
   if (date.value == "") {
-    incorrect.textContent = "Please Enter add a Valid Date"
+    incorrect.textContent = "Please Enter add a Valid Date";
   } else if (guests.value == "") {
-    incorrect.textContent = "Please Enter add a Valid Guests"
-  }
-  else {
+    incorrect.textContent = "Please Enter add a Valid Guests";
+  } else {
     filterList(reservationType.value, city.value);
     changePageColor(1);
     searchData = {
       date: date.value,
       reservationType: reservationType.value,
       city: city.value,
-      guests: guests.value
-    }
+      guests: guests.value,
+    };
     localStorage.setItem("searchData", JSON.stringify(searchData));
   }
-  
 });
 
 // filter function that shows list of what the user searches
@@ -160,14 +168,20 @@ function changePageColor(page) {
   }
 }
 
-const produits = document.querySelectorAll('.service');
-const images = document.querySelectorAll('.images');
+const produits = document.querySelectorAll(".service");
+const images = document.querySelectorAll(".images");
 
 produits.forEach((element, index) => {
-    element.addEventListener("click", () => {
-      if (serviceChecker == "restaurant")
-        localStorage.setItem("business-data", JSON.stringify(cityChecker.restaurant.businesses[index]));
-      else
-        localStorage.setItem("business-data", JSON.stringify(cityChecker.event.businesses[index]));
-    });
+  element.addEventListener("click", () => {
+    if (serviceChecker == "restaurant")
+      localStorage.setItem(
+        "business-data",
+        JSON.stringify(cityChecker.restaurant.businesses[index])
+      );
+    else
+      localStorage.setItem(
+        "business-data",
+        JSON.stringify(cityChecker.event.businesses[index])
+      );
   });
+});

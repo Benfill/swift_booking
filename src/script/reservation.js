@@ -44,7 +44,6 @@ function affiche() {
   let regexName = /^[A-Za-z]+$/;
 
   let regexPhone = /^\+212[0-9]{9}$/;
-  let Check = true;
 
   //  First Name validation
 
@@ -54,7 +53,6 @@ function affiche() {
     return;
   } else if (!regexName.test(firstName.value)) {
     affErrFName.innerHTML = "Invalid  name ";
-    Check = false;
     infoChecker = false;
     return;
   } else {
@@ -70,7 +68,6 @@ function affiche() {
     return;
   } else if (!regexName.test(lastName.value)) {
     affErrLName.innerHTML = "Invalid name ";
-    Check = false;
     infoChecker = false;
     return;
   } else {
@@ -85,7 +82,6 @@ function affiche() {
     return;
   } else if (!regexEmail.test(email.value)) {
     affErrEmail.innerHTML = "Invalid email address  ";
-    Check = false;
     infoChecker = false;
     return;
   } else {
@@ -102,7 +98,6 @@ function affiche() {
     affErrPhone.innerHTML =
       "Invalid phone number. <br>It should start with '+212' and have 9 digits.";
     infoChecker = false;
-    Check = false;
     return;
   } else {
     affErrPhone.innerHTML = "";
