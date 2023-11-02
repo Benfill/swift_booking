@@ -4,7 +4,7 @@ const homeHeaderHtml = `<div class="navbar fixed top-0 left-0 right-0 z-10 p-4">
   <nav class="flex flex-wrap items-center justify-between">
     <a href="../../index.html" class="logo text-white text-3xl font-bold">SwiftBooking</a>
     <div class="lg:hidden">
-			<button class="navbar-burger flex items-center text-white-600 p-3">
+			<button id="navbar-burger"  class="navbar-burger flex items-center text-white-600 p-3">
 				<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 					<title>Mobile menu</title>
 					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
@@ -22,7 +22,17 @@ const homeHeaderHtml = `<div class="navbar fixed top-0 left-0 right-0 z-10 p-4">
     </div>
   </nav>
 </div>
-</div`;
+</div
+
+<!-- Add the mobile menu items here -->
+    <div id="mobile-menu" class="mobile-menu ">
+      <a href="src/pages/services.html">Service</a>
+      <a href="src/pages/testemonials.html">Testimonials</a>
+      <a href="src/pages/reservation.html">Reservation</a>
+      <a href="src/pages/contact.html">Contact</a>
+      <a href="src/pages/login.html"><button class=" btn font bg-blue-700 text-white py-2 px-8 rounded-lg font-bold">Sign in</button></a>
+    </div>
+`;
 
 // variable takes the home footer html code
 const homeFooterHtml = `<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -80,3 +90,11 @@ const homeFooterElm = document.querySelector(".js-index-footer");
 
 homeHeaderElm.innerHTML = homeHeaderHtml;
 homeFooterElm.innerHTML = homeFooterHtml;
+
+
+const mobileMenu = document.getElementById("mobile-menu");
+const burgerButton = document.getElementById("navbar-burger");
+
+burgerButton.addEventListener("click", function () {
+    mobileMenu.classList.toggle("show");
+});
