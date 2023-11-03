@@ -1,4 +1,4 @@
-![SwiftBooking (1)](https://github.com/Youcode-Classe-E-2023-2024/Artcode_startup/assets/109225791/572470a2-0c05-4297-9f2a-416408b97465)
+![SwiftBooking (2)](https://github.com/Youcode-Classe-E-2023-2024/Artcode_startup/assets/109225791/8712905c-7d78-43b3-b18d-01813109074c)
 
 ## Table of Contents
 - [Artcode Startup - Restaurant and Event Booking Website](#artcode-startup---restaurant-and-event-booking-website)
