@@ -7,6 +7,19 @@ main{
     align-items: center;
 }
 
+.service {
+    transition: .3s;
+}
+
+.service:hover {
+    transform: scale(1.03);
+    transition: .3s;
+}
+
+.service-image {
+    cursor: pointer;
+}
+
 /************* Mobile menu block ************/
 
 .mobile-menu {
