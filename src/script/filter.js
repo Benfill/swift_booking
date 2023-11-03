@@ -65,7 +65,7 @@ filterBtn.addEventListener("click", function () {
       time: 0,
     };
     localStorage.setItem("searchData", JSON.stringify(searchData));
-    savingData();
+    savingData(0);
   }
 });
 
@@ -111,6 +111,7 @@ function filterList(reservationType, city) {
       }
       break;
   }
+
 }
 
 // showingList is a function shows the service list dpending on params
@@ -146,14 +147,15 @@ function pagination(page) {
       pageChecker = 1;
       changePageColor(pageChecker);
     }
+    savingData(0);
   } else if (page === 2) {
     for (let i = 12; i < 20; i++) {
       showingList(i, reservationType.value, cityChecker);
       pageChecker = 2;
       changePageColor(pageChecker);
     }
+    savingData(12);
   }
-  savingData();
 }
 
 const page_1 = document.querySelector(".pagination-1");
@@ -183,23 +185,23 @@ function changePageColor(page) {
   }
 }
 
-function savingData() {
+function savingData(idx) {
   const produits = document.querySelectorAll(".service");
   produits.forEach((element, index) => {
     element.addEventListener("click", () => {
       if (serviceChecker == "restaurant")
         localStorage.setItem(
           "business-data",
-          JSON.stringify(cityChecker.restaurant.businesses[index])
+          JSON.stringify(cityChecker.restaurant.businesses[index + idx])
         );
       else if (serviceChecker == "event")
         localStorage.setItem(
           "business-data",
-          JSON.stringify(cityChecker.event.businesses[index])
+          JSON.stringify(cityChecker.event.businesses[index + idx])
         );
       window.location.href = "./service_content.html";
     });
   });
 }
 
-savingData();
+savingData(0);
