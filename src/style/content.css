@@ -37,41 +37,6 @@ main {
 
 /******************   Service page  End    ******************************/
 
-/******************   Testemonials Page  Start   ******************************/
-.bg-image{
-    background-image: url("../img/bg2.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-
-}
-@media (max-width: 430px)
-{
-    .media{
-        font-size: medium;
-        line-height: normal;
-        margin:0 10px;
-
-    }
-    .media1{
-        font-size: small;
-        line-height: normal;
-    }
-    main{
-        display: flex;
-        flex-direction: column;
-        justify-content:flex-start;
-        align-items: center;
-
-    }
-    .grid-display{
-        grid-template-columns:1fr;
-
-    }
-}
-/******************   Testemonials Page  End   ******************************/
-
 /******************   Footer  Start   ******************************/
 
 .bg-footer{
