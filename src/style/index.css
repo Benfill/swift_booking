@@ -44,5 +44,8 @@ main {
         background-size:contain;
         height: 500px;
         width:90px;
-    }    
+    }
+    main {
+        height: 900px;
+    }
 }
