@@ -6,7 +6,7 @@ body {
 }
 
 main {
-    height: 2500px;
+    height: 25000px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -48,11 +48,6 @@ main {
     color: black;
 }
 
-@media screen and (max-width: 768px) {
-    main {
-        height: 2000px;
-    }  
-}
 /******************   Footer  End   ******************************/
 
 /******************   reservation-content  Start   *********************/
@@ -225,15 +220,8 @@ main {
 
 
 @media (max-width: 430px) {
-    .process-img{
-        height: 200px;
-        width:350px;
-    }
    .display{
        display: none;
-   }
-   .main{
-       height: 200px;
    }
 
 
@@ -273,10 +261,6 @@ main {
     .display1{
         display: none;
     }
-    .main{
-        height: 100px;
-    }
-
     
 }
 

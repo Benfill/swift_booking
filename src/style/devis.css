@@ -144,7 +144,7 @@ main{
 }
 
 @media print {
-    footer, #navbar-burger {
+    footer, #navbar-burger, .print {
         display: none;
     }
 }
