@@ -1,0 +1,191 @@
+
+main{
+    height: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/************* Mobile menu block ************/
+
+.mobile-menu {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 30%;
+    background: #2599FB;
+    display: none;
+    flex-direction: column;
+    padding: 1rem;
+    z-index: 1000;
+}
+
+.mobile-menu a {
+    display: block;
+    padding: 0.5rem 0;
+    color: white;
+    font-weight: bold;
+}
+
+.mobile-menu.show {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+@media (max-width: 430px) {
+    .process-img{
+        height: 200px;
+        width:350px;
+    }
+   .display{
+       display: none;
+   }
+   .main{
+       height: 200px;
+   }
+
+
+    .mobile-menu {
+        position: absolute;
+        top: 70px;
+        right: 0;
+        width: 30%;
+        background: #2599FB;
+        display: none;
+        flex-direction: column;
+        z-index: 1000;
+    }
+
+    .mobile-menu a {
+        display: block;
+        color: white;
+        font-weight: bold;
+        font-size: 10px;
+
+    }
+
+    .mobile-menu.show {
+        display: flex;
+        align-items: center;
+    }
+
+    .btn{
+        padding: 10px 20px;
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width: 769px) {
+
+    .display1{
+        display: none;
+    }
+    .main{
+        height: 100px;
+    }
+
+    
+}
+
+.pagination {
+    cursor: pointer;
+}
+
+
+/******************   Navbar  Start    ******************************/
+/*   Logo font   */
+.logo{
+    font-family: 'Lavishly Yours', cursive;
+}
+/* Navbar elements font  */
+.font{
+    font-family: 'Inter', sans-serif;
+}
+.navbar{
+    background-color: rgba(200, 200, 200, 0.4);
+}
+/******************   Navbar  End    ******************************/
+
+/******************   Footer  Start   ******************************/
+
+.bg-footer{
+    background-color: #AAD9F9;
+    width: 100%;
+}
+
+.text-black{
+    color: black;
+}
+
+@media screen and (max-width: 1025px) {
+    main {
+        height: 1500px;
+    }
+    .service{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    main {
+        height: 2400px;
+    }  
+    .bar{
+        padding: 10px;
+        width: 80%;
+        padding: 0;
+    } 
+    .service{
+        width: 100%;
+    }
+}
+/******************   Footer  End   ******************************/
+
+/******************   main  start   ******************************/
+
+@media screen and (max-width: 426px) {
+    main {
+       height: 4300px;   
+    }  
+    .bar{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    } 
+    .search-btn{
+        margin-top: 16px;
+    }
+    .service{
+        justify-content: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .service{
+        margin-left: 10%;
+    } 
+    .bar{
+        font-size: 12px;
+    } 
+}
+@media screen and (max-width: 320px) {
+    main{
+        height: 4500px;
+    }
+    .service{
+        margin-left: 10%;
+    } 
+    .bar{
+        font-size: 12px;
+    } 
+}
+/******************   main  End   ******************************/
