@@ -37,15 +37,14 @@ main {
     font-family: Montserrat Alternates;
     background-color: #fff;
     color: #082BCB;
-    border-color: #082BCB; 
     border-radius: 10px;
     margin-top: 110px;
-    margin-left: 110px;
+    margin-left: 100px;
 }
 
 .btn4:hover {
     background-color: #082BCB;
-    color: #fff;   
+    color: #fff;  
 }
 
 .form-container1 {
@@ -87,10 +86,8 @@ input {
     margin-left: 120px;
 }
 .btn5 {
-    border-radius: 9px;
-    border: 5px solid #082BCB;
     background: #082BCB;
-    margin-top: 35px;
+    margin-top: 5px;
     width: 120px;
     height: 30px;
     color: #fff;
@@ -101,11 +98,7 @@ input {
 }
 
 .btn5:hover {
-    background-color: #fff;
-    color: #5E17EB;
-    border: 3px;
-    border-color: #082BCB; 
-    
+    background-color: #0e2ebedc;
 }
 
 @media (max-width: 1388px)
@@ -124,13 +117,13 @@ input {
     #hh1{
         font-size: 30px;
         margin-top: 50px;
-        margin-left: 40px;
+        margin-left: 50px;
     }
     .text .btn4 {
         width: 120px;
         height: 30px;
         margin-top: 150px;
-        margin-left: 80px;
+        margin-left: 90px;
     }
     .btn5 {
         margin-left: -30px;
@@ -364,7 +357,6 @@ input {
 }
 .btn {
     border-radius: 9px;
-    border: 5px solid #082BCB;
     background: #082BCB;
     margin-top: 35px;
     margin-left: 50px;
@@ -377,11 +369,8 @@ input {
 }
 
 .btn:hover {
-    background-color: #fff;
-    color: #5E17EB;
-    border: 3px;
-    border-color: #082BCB; 
-    
+    background-color: #0e2ebedc;
+  
 }
 .salle img  {
     width: 400px; 
@@ -399,7 +388,7 @@ input {
     font-weight: 600;
     margin-bottom: 20px;
     margin-top: 10px;
-    margin-left: 450px;
+    margin-left: 480px;
     
 }
 p{
@@ -407,7 +396,7 @@ p{
     font-family: Montserrat Alternates;
     font-size: 22px;
     font-weight: 800;
-    margin-left: 400px;
+    margin-left: 410px;
     width: 307px;
     height: 89px;
     flex-shrink: 0;
@@ -418,8 +407,7 @@ p{
     height: 30px;
     font-family: Montserrat Alternates;
     background-color: #fff;
-    color: #082BCB;
-    border-color: #082BCB; 
+    color: #082BCB; 
     border-radius: 10px;
     margin-top: 90px;
     margin-left: 470px;
@@ -427,7 +415,8 @@ p{
 
 .btn1:hover {
     background-color: #082BCB;
-    color: #fff;   
+    color: #fff; 
+   
 }
 @media (max-width: 1388px)
 {
