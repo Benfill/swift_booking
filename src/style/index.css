@@ -36,3 +36,13 @@ main {
     display: none;
     width: 100%;
 }
+
+@media (max-width: 595px) {
+    .process-img {
+        background-image: url("../img/process-phone.png");
+        background-repeat: no-repeat;
+        background-size:contain;
+        height: 500px;
+        width:90px;
+    }    
+}
