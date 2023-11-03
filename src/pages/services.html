@@ -30,8 +30,8 @@
     <!-- this is the main section -->
     <main class="bar-search">
       <p class="incorrect"></p>
-      <div class="bg-white shadow-lg p-4 flex space-x-4">
-        <div class="flex space-x-4">
+      <div class="bg-white shadow-lg p-4 flex space-x-4 md:space-x-0 bar">
+        <div class="flex space-x-4 txt-bar">
           <div class="relative">
             <label for="city" class="font-medium text-gray-700">
               <ion-icon name="location-outline" class="mr-2"></ion-icon>City
@@ -74,7 +74,7 @@
             />
           </div>
         </div>
-        <div class="flex space-x-4">
+        <div class="flex space-x-4 txt-bar">
           <div class="relative">
             <label for="guests" class="font-medium text-gray-700">
               <ion-icon name="person" class="mr-2"></ion-icon>Guest
@@ -120,14 +120,14 @@
         </div>
         <button
           id="filter-button"
-          class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
+          class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded search-btn"
         >
           <ion-icon name="search-outline" class="mr-2"></ion-icon>Search
         </button>
       </div>
 
       <div
-        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 js-card"
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 js-card"
       >
         <!-- Restaurant, or event results will be displayed here -->
       </div>
