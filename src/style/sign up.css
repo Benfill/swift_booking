@@ -1,6 +1,7 @@
 main {
     height: 900px
 }
+
 .singUp {
     border: 3px solid #082BCB;
     border-radius: 20px ;
@@ -52,7 +53,7 @@ main {
     justify-content: center;
     margin: 0 auto; 
     padding: 20px;
-    z-index: 15;
+    z-index: 1;
 }
 h1 { 
     color: #030000;
@@ -324,7 +325,7 @@ main {
     justify-content: center;
     margin: 0 auto; 
     padding: 20px;
-    z-index: 15;
+    z-index: 1;
 }
 h1 { 
     color: #000;
