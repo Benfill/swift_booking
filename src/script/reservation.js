@@ -10,16 +10,22 @@ let affErrFName = document.getElementById("sp-first-name");
 let affErrLName = document.getElementById("sp-last-name");
 let affErrEmail = document.getElementById("sp-email");
 let affErrPhone = document.getElementById("sp-phone");
-let userInfo;
 let infoChecker;
 let searchChecker = JSON.parse(localStorage.getItem("searchData"));
 let reservedData = JSON.parse(localStorage.getItem("reservedData"));
+let userInfo = JSON.parse(localStorage.getItem("user-info"));
 let price;
-console.log(searchChecker);
 
 if (!reservedData) {
   main.innerHTML =
     "<div class='cancel-main'>Nothing in reservation please go home<div/>";
+}
+
+if (userInfo) {
+  firstName.value = userInfo.firstName;
+  lastName.value = userInfo.lastName;
+  email.value = userInfo.email;
+  phone.value = userInfo.phone;
 }
 
 if (reservedData.price == "$$$") price = 120;
@@ -64,10 +70,11 @@ confirm.addEventListener("click", () => {
       lastName: lastName.value,
       email: email.value,
       phone: phone.value,
+      price
     };
 
     localStorage.setItem("user-info", JSON.stringify(userInfo));
-    window.location.href = "../pages/service_content.html";
+    window.location.href = "../pages/devis.html";
   }
 });
 

@@ -16,19 +16,6 @@ let serviceChecker = "restaurant";
 // selecting cards parent by his class name
 const card = document.querySelector(".js-card");
 
-// showing cards
-if (JSON.parse(localStorage.getItem("searchData"))) {
-  let checker = JSON.parse(localStorage.getItem("searchData"));
-  serviceChecker = checker.reservationType;
-  let cityChecker2 = checker.city;
-  if (cityChecker2 === "nyc") cityChecker = nyc;
-  else if (cityChecker2 === "tangier") cityChecker = la;
-  else cityChecker = atlanta;
-}
-for (let i = 0; i < 12; i++) {
-  showingList(i, serviceChecker, cityChecker);
-}
-
 // selecting search btn by his id
 const filterBtn = document.getElementById("filter-button");
 const date = document.getElementById("date");
@@ -38,6 +25,23 @@ const guests = document.getElementById("guests");
 let searchData;
 
 date.value = "2023-11-03";
+
+if (JSON.parse(localStorage.getItem("searchData"))) {
+  let checker = JSON.parse(localStorage.getItem("searchData"));
+  serviceChecker = checker.reservationType;
+  let cityChecker2 = checker.city;
+  if (cityChecker2 === "nyc") cityChecker = nyc;
+  else if (cityChecker2 === "tangier") cityChecker = la;
+  else cityChecker = atlanta;
+} else {
+  searchData = {date: date.value};
+  localStorage.setItem("searchData", JSON.stringify(searchData));
+}
+
+// showing cards
+for (let i = 0; i < 12; i++) {
+  showingList(i, serviceChecker, cityChecker);
+}
 // getting search values
 filterBtn.addEventListener("click", function () {
   let incorrect = document.querySelector(".incorrect");
@@ -178,7 +182,6 @@ function changePageColor(page) {
 function savingData() {
   const produits = document.querySelectorAll(".service");
   produits.forEach((element, index) => {
-    console.log("dkhl");
     element.addEventListener("click", () => {
       if (serviceChecker == "restaurant")
         localStorage.setItem(

@@ -17,19 +17,6 @@ function showNextImage() {
     showImage(currentIndex);
 }
 
-// Select next and previous buttons by ID
-const nextButton = document.getElementById("next");
-const prevButton = document.getElementById("previous");
-
-if (nextButton && prevButton) {
-    // Add event listeners for next and previous buttons
-    nextButton.addEventListener("click", showNextImage);
-    prevButton.addEventListener("click", function() {
-        currentIndex = (currentIndex - 1 + images.length) % images.length;
-        showImage(currentIndex);
-    });
-}
-
 showImage(currentIndex); // Show the first image initially
 
 function startSlider() {

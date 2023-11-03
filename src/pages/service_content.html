@@ -111,7 +111,7 @@
 
     
         let currentGuests = 2; // Nombre d'invités actuel
-        searchData.guests = 2;
+        if(searchData) searchData.guests = 2;
     
         // Fonction pour mettre à jour le nombre d'invités et afficher
         const updateGuestCount = () => {
