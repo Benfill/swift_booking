@@ -100,6 +100,7 @@ const reservationType = document.getElementById("reservation-type");
 const city = document.getElementById("city");
 const guests = document.getElementById("guests");
 date.value = "2023-11-03";
+guests.value = 2;
 let searchData;
 // getting search values
 filterBtn.addEventListener("click", function () {

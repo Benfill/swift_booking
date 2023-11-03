@@ -33,6 +33,10 @@ if (JSON.parse(localStorage.getItem("searchData"))) {
   if (cityChecker2 === "nyc") cityChecker = nyc;
   else if (cityChecker2 === "tangier") cityChecker = la;
   else cityChecker = atlanta;
+  if(checker.date) date.value = checker.date;
+  if(checker.guests) guests.value = checker.guests;
+  city.value = checker.city;
+  reservationType.value = checker.reservationType;
 } else {
   searchData = {date: date.value};
   localStorage.setItem("searchData", JSON.stringify(searchData));
