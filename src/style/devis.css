@@ -142,3 +142,9 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+@media print {
+    footer, #navbar-burger {
+        display: none;
+    }
+}
