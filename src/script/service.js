@@ -34,7 +34,7 @@ ${serviceData.name} is dedicated to delivering an unforgettable dining experienc
 
 Nestled in the heart of ${serviceData.location.city}, ${serviceData.name} is conveniently located at ${serviceData.location.address1}, making it an easily accessible dining destination for both locals and visitors. The restaurant's warm and inviting decor sets the stage for a memorable meal, while the attentive staff ensures that your dining experience is nothing short of exceptional.</p>`;
 
-productImage.innerHTML = `<img class="h-auto max-w-full product-image" src="${serviceData.image_url}" alt="">`;
+productImage.innerHTML = `<img class="max-h-96 max-w-full product-image" src="${serviceData.image_url}" alt="">`;
 
 productAddress.innerHTML = `<a href="${serviceData.url}" class="text-blue-700 underline">${serviceData.name}</a>
 <p><ion-icon class="text-blue-800 text-xl mr-6" name="location-outline"></ion-icon>${serviceData.location.address1} ${serviceData.location.city} ${serviceData.location.city}</p>
