@@ -528,13 +528,16 @@ input {
 }
 @media (max-width: 570px){
     main {
-        height: 900px
+        height: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .singIn {    
         width: 100%;
         height: 500px;
         justify-content: center;
-        
+        align-items: center;
     }
     #ma{
         font-size: 25px;
@@ -551,18 +554,15 @@ input {
         font-size: 25px;
         margin-bottom: 20px;
         margin-top: 50px;
-        margin-left: 490px;
     }
     p{
         font-size: 12px;
-        margin-left: 450px;
 
     }
     .text-t .btn1 {
         width: 100px;
         height: 30px;
         margin-top: 50px;
-        margin-left: 470px;
     }
     input {
         margin-top: 9px;
