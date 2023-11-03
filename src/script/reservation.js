@@ -26,7 +26,7 @@ if (userInfo) {
   lastName.value = userInfo.lastName;
   email.value = userInfo.email;
   phone.value = userInfo.phone;
-}
+} else phone.value = "+1";
 
 if (reservedData.price == "$$$") price = 120;
 else if (reservedData.price == "$$") price = 68;
@@ -82,7 +82,7 @@ function affiche() {
   let regexEmail = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
   let regexName = /^[A-Za-z]+$/;
 
-  let regexPhone = /^\+212[0-9]{9}$/;
+  let regexPhone = /^\+1[0-9]{10}$/;
 
   //  First Name validation
 
@@ -135,7 +135,7 @@ function affiche() {
     return;
   } else if (!regexPhone.test(phone.value)) {
     affErrPhone.innerHTML =
-      "Invalid phone number. <br>It should start with '+212' and have 9 digits.";
+      "Invalid phone number. <br>It should start with '+1' and have 10 digits.";
     infoChecker = false;
     return;
   } else {
