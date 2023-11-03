@@ -14,8 +14,12 @@ function categories() {
 }
 
 function price () {
-  if (serviceData.price) return serviceData.price;
+  console.log(serviceData.price);
+  if (serviceData.price === undefined) return "$$";
+  else return serviceData.price;
 }
+
+console.log(serviceData);
 
 productDetail.innerHTML = `<h2 class="text-4xl font-medium shadow-text product-title">${
   serviceData.name
