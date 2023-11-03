@@ -378,10 +378,10 @@ input {
     border-radius: 10px; 
     filter: blur(2px);
 }
-.text{
+.text-t{
   position: absolute; 
 }
-.text h1{
+.text-t h1{
     color: #FFF;
     font-family: Montserrat Alternates;
     font-size: 40px;
@@ -391,7 +391,7 @@ input {
     margin-left: 480px;
     
 }
-p{
+.text-t p{
     color: #fff;
     font-family: Montserrat Alternates;
     font-size: 22px;
@@ -402,7 +402,7 @@ p{
     flex-shrink: 0;
     -webkit-text-stroke: 0.9px black;
 }
-.text .btn1 {
+.text-t .btn1 {
     width: 120px;
     height: 30px;
     font-family: Montserrat Alternates;
@@ -431,7 +431,7 @@ p{
         width: 350px; 
         height: 470px;
     }
-    .text h1{
+    .text-t h1{
         font-size: 36px;
         margin-bottom: 20px;
         margin-top: 50px;
@@ -442,7 +442,7 @@ p{
         margin-left: 390px;
 
     }
-    .text .btn1 {
+    .text-t .btn1 {
         width: 120px;
         height: 30px;
         margin-top: 50px;
@@ -469,18 +469,18 @@ p{
         width: 350px; 
         height: 470px;
     }
-    .text h1{
+    .text-t h1{
         font-size: 36px;
         margin-bottom: 20px;
         margin-top: 50px;
         margin-left: 450px;
     }
-    p{
+    .text-t p{
         font-size: 20px;
         margin-left: 390px;
 
     }
-    .text .btn1 {
+    .text-t .btn1 {
         width: 120px;
         height: 30px;
         margin-top: 50px;
@@ -500,18 +500,18 @@ p{
     .salle img  {
         width: 300px; 
     }
-    .text h1{
+    .text-t h1{
         font-size: 36px;
         margin-bottom: 20px;
         margin-top: 50px;
         margin-left: 400px;
     }
-    p{
+    .text-t p{
         font-size: 18px;
         margin-left: 380px;
 
     }
-    .text .btn1 {
+    .text-t .btn1 {
         width: 120px;
         height: 30px;
         margin-top: 50px;
@@ -546,7 +546,7 @@ p{
         height: 30px;
         margin-left: 60px;
     }
-    .text h1{
+    .text-t h1{
         font-size: 25px;
         margin-bottom: 20px;
         margin-top: 50px;
@@ -557,7 +557,7 @@ p{
         margin-left: 450px;
 
     }
-    .text .btn1 {
+    .text-t .btn1 {
         width: 100px;
         height: 30px;
         margin-top: 50px;
@@ -597,18 +597,18 @@ p{
         height: 505px;
         filter: blur(1px);
     }
-    #hh1{
+    .text-t h1{
         font-size: 20px;
         margin-bottom: 20px;
         margin-top: 70px;
         margin-left: -170px;
     }
-    p{
+    .text-t p{
         font-size: 12px;
         margin-left: 320px;
 
     }
-    .text .btn1 {
+    .text-t .btn1 {
         width: 100px;
         height: 25px;
         margin-top: 50px;
