@@ -122,16 +122,70 @@ main{
     color: black;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1025px) {
     main {
-        height: 2000px;
-    }  
+        height: 1500px;
+    }
+    .service{
+        width: 100%;
+    }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 769px) {
     main {
-        /* height: 4000px; */
-       
+        height: 2400px;
     }  
+    .bar{
+        padding: 10px;
+        width: 80%;
+        padding: 0;
+    } 
+    .service{
+        width: 100%;
+    }
 }
 /******************   Footer  End   ******************************/
+
+/******************   main  start   ******************************/
+
+@media screen and (max-width: 426px) {
+    main {
+       height: 4300px;   
+    }  
+    .bar{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    } 
+    .search-btn{
+        margin-top: 16px;
+    }
+    .service{
+        justify-content: center;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+    .service{
+        margin-left: 10%;
+    } 
+    .bar{
+        font-size: 12px;
+    } 
+}
+@media screen and (max-width: 320px) {
+    main{
+        height: 4500px;
+    }
+    .service{
+        margin-left: 10%;
+    } 
+    .bar{
+        font-size: 12px;
+    } 
+}
+/******************   main  End   ******************************/
