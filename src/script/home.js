@@ -5,10 +5,10 @@ const homeHeaderHtml = `<div id="navbar" class="navbar fixed top-0 left-0 right-
     <a href="../../index.html" class="logo text-white text-3xl font-bold">SwiftBooking</a>
     <div class="lg:hidden">
 			<button id="navbar-burger"  class="navbar-burger flex items-center text-white-600 p-3">
-				<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-					<title>Mobile menu</title>
-					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-				</svg>
+      <svg class="block h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="fill: black;">
+      <title>Mobile menu</title>
+      <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+      </svg>
 			</button>
 	</div>
     <ul id="menuList" class="hidden lg:flex space-x-6 content-around text-white font-bold">
@@ -91,8 +91,6 @@ const homeFooterElm = document.querySelector(".js-index-footer");
 homeHeaderElm.innerHTML = homeHeaderHtml;
 homeFooterElm.innerHTML = homeFooterHtml;
 
-
-
 // selecting search btn by his id
 const filterBtn = document.getElementById("filter-button");
 const date = document.getElementById("date");
@@ -109,13 +107,11 @@ filterBtn.addEventListener("click", function () {
     reservationType: reservationType.value,
     city: city.value,
     guests: guests.value,
-    time: 0
+    time: 0,
   };
   localStorage.setItem("searchData", JSON.stringify(searchData));
   window.location.href = "./src/pages/services.html";
 });
-
-
 
 // Navbar change color on scroll
 const navbar = document.getElementById("navbar");
@@ -125,11 +121,9 @@ window.addEventListener("scroll", function () {
     // User has scrolled, change the navbar color to your desired class
     navbar.classList.remove("navbar");
     navbar.classList.add("bg-blue-700"); // Change this class to the color you want
-
   } else {
     // User is at the top, reset the navbar color
     navbar.classList.remove("bg-blue-700");
     navbar.classList.add("navbar");
   }
 });
-

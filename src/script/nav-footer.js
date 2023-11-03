@@ -51,10 +51,10 @@ const headerHtml = `<div id="navbar" class="navbar fixed top-0 left-0 right-0 z-
     <a href="../../index.html" class="logo text-black text-3xl font-bold nav-text overflow-hidden">SwiftBooking</a>
       <div class="lg:hidden">
 			<button id="navbar-burger" class="navbar-burger flex items-center text-blue-600 p-3">
-				<svg class="block h-4 w-4 fill-current" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-					<title>Mobile menu</title>
-					<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-				</svg>
+      <svg class="block h-4 w-4" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" style="fill: black;">
+      <title>Mobile menu</title>
+      <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+      </svg>
 			</button>
 		  </div>
       <ul id="menuList" class="hidden lg:flex space-x-6 content-around text-black font-bold nav-text">
@@ -99,7 +99,6 @@ window.addEventListener("scroll", function () {
     // User has scrolled, change the navbar color to your desired class
     navbar.classList.remove("navbar");
     navbar.classList.add("bg-blue-700"); // Change this class to the color you want
-
   } else {
     // User is at the top, reset the navbar color
     navbar.classList.remove("bg-blue-700");
