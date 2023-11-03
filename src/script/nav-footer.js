@@ -45,7 +45,7 @@ const footerHtml = `<div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8"
 </div>`;
 
 // variable takes the header html code
-const headerHtml = `<div class="navbar fixed top-0 left-0 right-0 z-10 p-4">
+const headerHtml = `<div id="navbar" class="navbar fixed top-0 left-0 right-0 z-10 p-4">
   <div class="container mx-auto">
     <nav class="flex flex-wrap items-center justify-between">
     <a href="../../index.html" class="logo text-black text-3xl font-bold nav-text overflow-hidden">SwiftBooking</a>
@@ -90,3 +90,19 @@ for (let i = 0; i < footerElm.length; i++) {
   headerElm[i].innerHTML = headerHtml;
   footerElm[i].innerHTML = footerHtml;
 }
+
+// Navbar change color on scroll
+const navbar = document.getElementById("navbar");
+
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 0) {
+    // User has scrolled, change the navbar color to your desired class
+    navbar.classList.remove("navbar");
+    navbar.classList.add("bg-blue-700"); // Change this class to the color you want
+
+  } else {
+    // User is at the top, reset the navbar color
+    navbar.classList.remove("bg-blue-700");
+    navbar.classList.add("navbar");
+  }
+});

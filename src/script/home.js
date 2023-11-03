@@ -1,5 +1,5 @@
 // variable takes the home header html code
-const homeHeaderHtml = `<div class="navbar fixed top-0 left-0 right-0 z-10 p-4">
+const homeHeaderHtml = `<div id="navbar" class="navbar fixed top-0 left-0 right-0 z-10 p-4">
 <div class="container mx-auto">
   <nav class="flex flex-wrap items-center justify-between">
     <a href="../../index.html" class="logo text-white text-3xl font-bold">SwiftBooking</a>
@@ -114,3 +114,22 @@ filterBtn.addEventListener("click", function () {
   localStorage.setItem("searchData", JSON.stringify(searchData));
   window.location.href = "./src/pages/services.html";
 });
+
+
+
+// Navbar change color on scroll
+const navbar = document.getElementById("navbar");
+
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 0) {
+    // User has scrolled, change the navbar color to your desired class
+    navbar.classList.remove("navbar");
+    navbar.classList.add("bg-blue-700"); // Change this class to the color you want
+
+  } else {
+    // User is at the top, reset the navbar color
+    navbar.classList.remove("bg-blue-700");
+    navbar.classList.add("navbar");
+  }
+});
+
